@@ -49,6 +49,18 @@ local Tab3 = Window:Tab({
 local Tab4 = Window:Tab({
    Text = "Soon..."
 })
+local Tab5 = Window:Tab({
+   Text = "Soon..."
+})
+local Tab6 = Window:Tab({
+   Text = "Soon..."
+})
+local Tab7 = Window:Tab({
+   Text = "Soon..."
+})
+local Tab8 = Window:Tab({
+   Text = "Credits"
+})
 
 local Section = Tab:Section({
    Text = "Player" ,
