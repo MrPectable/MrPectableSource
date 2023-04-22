@@ -189,6 +189,36 @@ Section2:Toggle({
        warn(bool)
    end
 })
+Section2:Toggle({
+   Text = "Dahub GUI",
+   Callback = function(bool)
+     getgenv().Toggle = "v"
+getgenv().Intro = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NoUGotbannedlol/DaHubV3/main/Launch"))()  
+       warn(bool)
+   end
+})
+Section2:Toggle({
+   Text = "Vortex",
+   Callback = function(bool)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))() 
+       warn(bool)
+   end
+})
+Section2:Toggle({
+   Text = "DH HUB",
+   Callback = function(bool)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/rblxscriptsnet/rblxhub/main/rblxhub.lua"))()
+       warn(bool)
+   end
+})
+Section2:Toggle({
+   Text = "Z HUB",
+   Callback = function(bool)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
+       warn(bool)
+   end
+})
 
 local Section2 = Tab2:Section({
    Text = "Ragdoll" ,
