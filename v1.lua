@@ -234,7 +234,7 @@ Section:Input({
 })
 
 Section2:Button({
-   Text = "More Scripts Tmmrw , Im Coding rn :D",
+   Text = "Im Coding rn :D",
    Callback = function()
        warn("MrPectable")
    end
