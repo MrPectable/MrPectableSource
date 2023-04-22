@@ -235,15 +235,87 @@ local Section2 = Tab2:Section({
    Text = "Arsenal" ,
     Side = "Left"
 })
+Section2:Toggle({
+   Text = "Dex HUB",
+   Callback = function(bool)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/HonestlyDex/DexHub/main/V3.lua"))() 
+       warn(bool)
+   end
+})
+Section2:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      
+       warn(bool)
+   end
+})
 local Section2 = Tab2:Section({
    Text = "Prison Life" ,
     Side = "Left"
 })
-
+Section2:Toggle({
+   Text = "Admin CMDS",
+   Callback = function(bool)
+      loadstring(game:HttpGet('https://pastebin.com/raw/iZ64yzjE'))()
+       warn(bool)
+   end
+})
+Section2:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))() 
+       warn(bool)
+   end
+})
 local Section2 = Tab2:Section({
-   Text = "Soon.." ,
+   Text = "Adopt Me" ,
     Side = "Right"
 })
+local Section2 = Tab2:Section({
+   Text = "MM2" ,
+    Side = "Right"
+})
+local Section2 = Tab2:Section({
+   Text = "BrookHaven" ,
+    Side = "Right"
+})
+local Section2 = Tab2:Section({
+   Text = "MeepCity" ,
+    Side = "Right"
+})
+local Section2 = Tab2:Section({
+   Text = "Doors" ,
+    Side = "Right"
+})
+local Section2 = Tab2:Section({
+   Text = "Evade" ,
+    Side = "Right"
+})
+local Section2 = Tab2:Section({
+   Text = "BABFT" ,
+    Side = "Left"
+})
+local Section2 = Tab2:Section({
+   Text = "Islands" ,
+    Side = "Left"
+})
+local Section2 = Tab2:Section({
+   Text = "Flee The Facility" ,
+    Side = "Left"
+})
+local Section2 = Tab2:Section({
+   Text = "Islands" ,
+    Side = "Left"
+})
+local Section2 = Tab2:Section({
+   Text = "K.A.T" ,
+    Side = "Left"
+})
+local Section2 = Tab2:Section({
+   Text = "More Soon..." ,
+    Side = "Left"
+})
+
 
 
 
