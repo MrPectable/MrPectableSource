@@ -59,7 +59,7 @@ local Section = Tab:Section({
    Text = "Admin" ,
     Side = "Right"
 })
-Section2:Toggle({
+Section:Toggle({
    Text = "Infinite Yield",
    Callback = function(bool)
      loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
