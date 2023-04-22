@@ -78,7 +78,13 @@ Section:Toggle({
        warn(bool)
    end
 })
-
+Section:Toggle({
+   Text = "Shift Lock",
+   Callback = function(bool)
+     loadstring(game:HttpGet("https://pastebin.com/Pf0hUKd1"))()
+       warn(bool)
+   end
+})
 
 
 
