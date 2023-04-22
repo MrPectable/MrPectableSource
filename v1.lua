@@ -47,7 +47,7 @@ local Tab3 = Window:Tab({
 })
 
 local Tab4 = Window:Tab({
-   Text = "Soon.(3)"
+   Text = "Soon..."
 })
 
 local Section = Tab:Section({
@@ -305,6 +305,14 @@ local Section2 = Tab2:Section({
 })
 local Section2 = Tab2:Section({
    Text = "Islands" ,
+    Side = "Left"
+})
+local Section2 = Tab2:Section({
+   Text = "K.A.T" ,
+    Side = "Left"
+})
+local Section2 = Tab2:Section({
+   Text = "More Soon..." ,
     Side = "Left"
 })
 
