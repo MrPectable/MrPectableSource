@@ -55,6 +55,24 @@ local Section = Tab:Section({
     Side = "Left"
 })
 
+local Section = Tab:Section({
+   Text = "Admin" ,
+    Side = "Right"
+})
+Section2:Toggle({
+   Text = "Infinite Yield",
+   Callback = function(bool)
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+       warn(bool)
+   end
+})
+
+
+
+
+
+
+
 local Section2 = Tab2:Section({
    Text = "PSX" ,
     Side = "Left"
@@ -181,6 +199,15 @@ Section2:Toggle({
    Callback = function(bool)
        warn(bool)
    end
+})
+
+local Section2 = Tab2:Section({
+   Text = "Arsenal" ,
+    Side = "Left"
+})
+local Section2 = Tab2:Section({
+   Text = "Prison Life" ,
+    Side = "Left"
 })
 
 local Section2 = Tab2:Section({
