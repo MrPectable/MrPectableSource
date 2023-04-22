@@ -268,7 +268,8 @@ Section:Input({
 Section:Input({
    Text = "Hitbox Size",
    Callback = function(txt)
-game.Players.LocalPlayer.Character.Humanoid.HitBox = txt
+      game.HeadSize = txt
+      game.Disabled = true
        warn(txt)
    end
 })
