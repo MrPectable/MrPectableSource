@@ -35,7 +35,7 @@ local Window = Library:Window({
 })
 
 local Tab = Window:Tab({
-   Text = "Local"
+   Text = "Local Player"
 })
 
 local Tab2 = Window:Tab({
@@ -47,19 +47,57 @@ local Tab3 = Window:Tab({
 })
 
 local Tab4 = Window:Tab({
-   Text = "Soon..."
+   Text = "Game Hubs"
 })
 local Tab5 = Window:Tab({
-   Text = "Soon..."
+   Text = "Popular Scripts"
 })
 local Tab6 = Window:Tab({
-   Text = "Soon..."
+   Text = "Cloud Scripts"
 })
 local Tab7 = Window:Tab({
    Text = "Soon..."
 })
 local Tab8 = Window:Tab({
+   Text = "Soon..."
+})
+local Tab9 = Window:Tab({
+   Text = "Soon..."
+})
+local Tab10 = Window:Tab({
    Text = "Credits"
+})
+local Section10 = Tab2:Section({
+   Text = "BIG HELPERS" ,
+    Side = "Left"
+})
+Section:Button({
+   Text = "Amack#0002",
+   Callback = function()
+       
+   end
+})
+Section:Button({
+   Text = "Script Organizer",
+   Callback = function()
+       
+   end
+})
+local Section10 = Tab2:Section({
+   Text = "Small HELPERS" ,
+    Side = "Right"
+})
+Section:Button({
+   Text = "origami#0339",
+   Callback = function()
+       
+   end
+})
+Section:Button({
+   Text = "Script Provider",
+   Callback = function()
+       
+   end
 })
 
 local Section = Tab:Section({
