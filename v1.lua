@@ -356,10 +356,6 @@ local Section2 = Tab2:Section({
 local Section3 = Tab3:Section({
    Text = "Soon..."
 })
-local Section4 = Tab4:Section({
-   Text = "Soon...."
-})
-
 Section:Input({
    Text = "Zoom Size",
    Callback = function(txt)
@@ -444,13 +440,13 @@ local Section10 = Tab10:Section({
    Text = "BIG HELPERS" ,
     Side = "Left"
 })
-Section:Toggle({
+Section10:Toggle({
    Text = "Amack#0002",
    Callback = function(bool)
        warn(bool)
    end
 })
-Section:Button({
+Section10:Button({
    Text = "Script Organizer",
    Callback = function()      
    end
@@ -459,13 +455,13 @@ local Section10 = Tab10:Section({
    Text = "Small HELPERS" ,
     Side = "Right"
 })
-Section:Toggle({
+Section10:Toggle({
    Text = "origami#0339",
    Callback = function(bool)
        warn(bool)
    end
 })
-Section:Button({
+Section10:Button({
    Text = "Script Provider",
    Callback = function()
        
@@ -475,7 +471,7 @@ local Section4 = Tab4:Section({
    Text = "ProjectEvo" ,
     Side = "Left"
 })
-Section:Toggle({
+Section4:Toggle({
    Text = "Evo4",
    Callback = function(bool)
      loadstring(game:HttpGet("https://projectevo.xyz/v4/script.lua", true))();
