@@ -47,7 +47,7 @@ local Tab3 = Window:Tab({
 })
 
 local Tab4 = Window:Tab({
-   Text = "Game Hubs"
+   Text = "Local Hubs"
 })
 
 local Tab5 = Window:Tab({
@@ -68,6 +68,7 @@ local Tab9 = Window:Tab({
 local Tab10 = Window:Tab({
    Text = "Credits"
 })
+
 local Section = Tab:Section({
    Text = "Player" ,
     Side = "Left"
@@ -443,26 +444,25 @@ local Section10 = Tab10:Section({
    Text = "BIG HELPERS" ,
     Side = "Left"
 })
-Section:Button({
+Section:Toggle({
    Text = "Amack#0002",
-   Callback = function()
-       
+   Callback = function(bool)
+       warn(bool)
    end
 })
 Section:Button({
    Text = "Script Organizer",
-   Callback = function()
-       
+   Callback = function()      
    end
 })
 local Section10 = Tab10:Section({
    Text = "Small HELPERS" ,
     Side = "Right"
 })
-Section:Button({
+Section:Toggle({
    Text = "origami#0339",
-   Callback = function()
-       
+   Callback = function(bool)
+       warn(bool)
    end
 })
 Section:Button({
