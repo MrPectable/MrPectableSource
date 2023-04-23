@@ -114,42 +114,14 @@ Section2:Toggle({
        warn(bool)
    end
 })
-Section2:Button({
-   Text = "Fast Chakra Gain",
-   Callback = function()
-         local replicated = game:GetService('ReplicatedStorage')
-coroutine.wrap(function()
- 
-  for i = 1,2000 do -- do howerver much you want
- 
-    task.spawn(function()
- 
-        replicated.RSPackage.Events.StatFunction:InvokeServer('Stat', 'Chakra')
- 
-    end)
- 
-  end
- 
-end)()
- 
- 
- 
--- Customize how bad you want it to lag here
- 
-for i = 1,1000 do
- 
-    for i = 1,1000 do
- 
-        for i = 1,2000 do
- 
-        end
- 
-    end
- 
-end      
-       warn("Chakra")
+Section2:Toggle({
+   Text = "Fast Chakra Train",
+   Callback = function(bool) 
+      loadstring(game:HttpGet("https://pastebin.com/raw/ccKbNypX"))()
+       warn(bool)
    end
 })
+
 
 local Section2 = Tab2:Section({
    Text = "Blox Fruits" ,
