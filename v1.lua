@@ -478,4 +478,15 @@ Section4:Toggle({
        warn(bool)
    end
 })
+local Section4 = Tab4:Section({
+   Text = "NukeHub" ,
+    Side = "Right"
+})
+Section4:Toggle({
+   Text = "NukevsCity",
+   Callback = function(bool)
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+       warn(bool)
+   end
+})
 Tab:Select()
