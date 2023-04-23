@@ -118,9 +118,6 @@ Section2:Button({
    Text = "Fast Chakra Gain",
    Callback = function()
          local replicated = game:GetService('ReplicatedStorage')
- 
- 
- 
 coroutine.wrap(function()
  
   for i = 1,2000 do -- do howerver much you want
@@ -149,9 +146,7 @@ for i = 1,1000 do
  
     end
  
-end
-end)
-      
+end      
        warn("Chakra")
    end
 })
