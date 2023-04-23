@@ -68,39 +68,6 @@ local Tab9 = Window:Tab({
 local Tab10 = Window:Tab({
    Text = "Credits"
 })
-local Section10 = Tab10:Section({
-   Text = "BIG HELPERS" ,
-    Side = "Left"
-})
-Section:Button({
-   Text = "Amack#0002",
-   Callback = function()
-       
-   end
-})
-Section:Button({
-   Text = "Script Organizer",
-   Callback = function()
-       
-   end
-})
-local Section10 = Tab10:Section({
-   Text = "Small HELPERS" ,
-    Side = "Right"
-})
-Section:Button({
-   Text = "origami#0339",
-   Callback = function()
-       
-   end
-})
-Section:Button({
-   Text = "Script Provider",
-   Callback = function()
-       
-   end
-})
-
 local Section = Tab:Section({
    Text = "Player" ,
     Side = "Left"
@@ -472,4 +439,36 @@ Section:Button({
    end
 })
 
+local Section10 = Tab10:Section({
+   Text = "BIG HELPERS" ,
+    Side = "Left"
+})
+Section:Button({
+   Text = "Amack#0002",
+   Callback = function()
+       
+   end
+})
+Section:Button({
+   Text = "Script Organizer",
+   Callback = function()
+       
+   end
+})
+local Section10 = Tab10:Section({
+   Text = "Small HELPERS" ,
+    Side = "Right"
+})
+Section:Button({
+   Text = "origami#0339",
+   Callback = function()
+       
+   end
+})
+Section:Button({
+   Text = "Script Provider",
+   Callback = function()
+       
+   end
+})
 Tab:Select()
