@@ -68,7 +68,7 @@ local Tab9 = Window:Tab({
 local Tab10 = Window:Tab({
    Text = "Credits"
 })
-local Section10 = Tab2:Section({
+local Section10 = Tab10:Section({
    Text = "BIG HELPERS" ,
     Side = "Left"
 })
@@ -84,7 +84,7 @@ Section:Button({
        
    end
 })
-local Section10 = Tab2:Section({
+local Section10 = Tab10:Section({
    Text = "Small HELPERS" ,
     Side = "Right"
 })
