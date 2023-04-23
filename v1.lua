@@ -47,14 +47,14 @@ local Tab3 = Window:Tab({
 })
 
 local Tab4 = Window:Tab({
-   Text = "Local Hubs"
+   Text = "Player Hubs"
 })
 
 local Tab5 = Window:Tab({
-   Text = "Popular Scripts"
+   Text = "Soon..."
 })
 local Tab6 = Window:Tab({
-   Text = "Cloud Scripts"
+   Text = "Soon..."
 })
 local Tab7 = Window:Tab({
    Text = "Soon..."
