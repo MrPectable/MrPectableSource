@@ -49,16 +49,7 @@ local Tab3 = Window:Tab({
 local Tab4 = Window:Tab({
    Text = "Game Hubs"
 })
-local Section4 = Tab2:Section({
-   Text = "Project Evo" ,
-    Side = "Left"
-})
-Section:Button({
-   Text = "Evo4",
-   Callback = function()
-       loadstring(game:HttpGet("https://projectevo.xyz/v4/script.lua", true))();
-   end
-})
+
 local Tab5 = Window:Tab({
    Text = "Popular Scripts"
 })
