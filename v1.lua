@@ -378,6 +378,14 @@ local Section2 = Tab2:Section({
     Side = "Right"
 })
 
+Section2:Toggle({
+   Text = "Jens HUB",
+   Callback = function(bool)
+loadstring(game:HttpGet("https://scripts.luawl.com/hosted/3073/18680/JensHub.lua"))()
+       warn(bool)
+   end
+})
+
 
 local Section2 = Tab2:Section({
    Text = "BrookHaven" ,
@@ -395,13 +403,25 @@ local Section2 = Tab2:Section({
    Text = "Doors" ,
     Side = "Right"
 })
-
+Section2:Toggle({
+   Text = "Statue v7",
+   Callback = function(bool)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/toosiwhip/statue-v7/main/main.lua'))()
+       warn(bool)
+   end
+})
 
 local Section2 = Tab2:Section({
    Text = "Evade" ,
     Side = "Right"
 })
-
+Section2:Toggle({
+   Text = "Hydra",
+   Callback = function(bool)
+loadstring(game:HttpGet("https://pastebin.com/raw/7P3q488J"))()
+       warn(bool)
+   end
+})
 
 local Section2 = Tab2:Section({
    Text = "BABFT" ,
