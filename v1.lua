@@ -93,11 +93,6 @@ Section:Toggle({
    end
 })
 
-
-
-
-
-
 local Section2 = Tab2:Section({
    Text = "PSX" ,
     Side = "Left"
@@ -134,6 +129,64 @@ Section2:Toggle({
        warn(bool)
    end
 })
+Section2:Toggle({
+   Text = "Tuper HUB",
+   Callback = function(bool)
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/TUPERX/TUPERX/Main/MenuBF/README.md'))()
+       warn(bool)
+   end
+})
+Section2:Toggle({
+   Text = "Ripper",
+   Callback = function(bool)
+      _G.Color = Color3.fromRGB(52, 190, 255)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/NEWBF.lua"))() 
+       warn(bool)
+   end
+})
+Section2:Toggle({
+   Text = "Hoho HUB",
+   Callback = function(bool)
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+       warn(bool)
+   end
+})
+Section2:Toggle({
+   Text = "Playback X",
+   Callback = function(bool)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt"))()
+       warn(bool)
+   end
+})
+Section2:Toggle({
+   Text = "Fusion HUB",
+   Callback = function(bool)
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/script/main/fusion1'))() 
+       warn(bool)
+   end
+})
+Section2:Toggle({
+   Text = "BX HUB",
+   Callback = function(bool)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/BlodyXHub/Xeniel_All/main/ForAll"))()
+       warn(bool)
+   end
+})
+Section2:Toggle({
+   Text = "String X",
+   Callback = function(bool)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))() 
+       warn(bool)
+   end
+})
+Section2:Toggle({
+   Text = "Blaze X",
+   Callback = function(bool)
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/WindowsXp12/BlxzeRBLX/main/BLxzeHub.lua"))()
+       warn(bool)
+   end
+})
+
 
 local Section2 = Tab2:Section({
    Text = "Blox Burg" ,
@@ -501,6 +554,28 @@ Section4:Toggle({
    Text = "NukevsCity",
    Callback = function(bool)
      loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+       warn(bool)
+   end
+})
+local Section4 = Tab4:Section({
+   Text = "Owl Hub" ,
+    Side = "Left"
+})
+Section4:Toggle({
+   Text = "Owl",
+   Callback = function(bool)
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+       warn(bool)
+   end
+})
+local Section4 = Tab4:Section({
+   Text = "Hoho Hub" ,
+    Side = "Right"
+})
+Section4:Toggle({
+   Text = "Hoho",
+   Callback = function(bool)
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
        warn(bool)
    end
 })
