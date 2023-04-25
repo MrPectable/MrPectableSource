@@ -371,46 +371,72 @@ local Section2 = Tab2:Section({
    Text = "Adopt Me" ,
     Side = "Right"
 })
+
+
 local Section2 = Tab2:Section({
    Text = "MM2" ,
     Side = "Right"
 })
+
+
 local Section2 = Tab2:Section({
    Text = "BrookHaven" ,
     Side = "Right"
 })
+
+
 local Section2 = Tab2:Section({
    Text = "MeepCity" ,
     Side = "Right"
 })
+
+
 local Section2 = Tab2:Section({
    Text = "Doors" ,
     Side = "Right"
 })
+
+
 local Section2 = Tab2:Section({
    Text = "Evade" ,
     Side = "Right"
 })
+
+
 local Section2 = Tab2:Section({
    Text = "BABFT" ,
     Side = "Left"
 })
+
+
+Section2:Toggle({
+   Text = "xRollu HUB",
+   Callback = function(bool)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+       warn(bool)
+   end
+})
+
 local Section2 = Tab2:Section({
    Text = "Islands" ,
     Side = "Left"
 })
+
 local Section2 = Tab2:Section({
    Text = "Flee The Facility" ,
     Side = "Left"
 })
+
 local Section2 = Tab2:Section({
-   Text = "Islands" ,
+   Text = "Bedwars" ,
     Side = "Left"
 })
+
 local Section2 = Tab2:Section({
    Text = "K.A.T" ,
     Side = "Left"
 })
+
 Section2:Toggle({
    Text = "Aim-Bot",
    Callback = function(bool)
@@ -418,6 +444,7 @@ Section2:Toggle({
        warn(bool)
    end
 })
+
 local Section2 = Tab2:Section({
    Text = "More Soon..." ,
     Side = "Left"
