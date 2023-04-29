@@ -118,9 +118,9 @@ Section2:Toggle({
 })
 Section2:Toggle({
    Text = "Auto Train Strength",
-   Callback = function(bool) 
+   Callback = function(value) 
       
-         getgenv().autos = bool
+         getgenv().autos = value
     spawn(function()
         while autos == true do
             local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
@@ -128,14 +128,14 @@ Section2:Toggle({
             wait()
         end   
           
-       warn(bool)
+       warn(value)
    end
 })
 Section2:Toggle({
    Text = "Auto Train Durability",
-   Callback = function(bool) 
+   Callback = function(value) 
           
-        getgenv().autos = bool
+        getgenv().autos = value
     spawn(function()
         while autos == true do
             local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
@@ -143,14 +143,14 @@ Section2:Toggle({
             wait()
         end      
       
-       warn(bool)
+       warn(value)
    end
 })
 Section2:Toggle({
    Text = "Auto Train Chakra",
-   Callback = function(bool) 
+   Callback = function(value) 
               
-        getgenv().autos = bool
+        getgenv().autos = value
     spawn(function()
         while autos == true do
             local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
@@ -158,7 +158,7 @@ Section2:Toggle({
             wait()
         end      
       
-       warn(bool)
+       warn(value)
    end
 })
 
