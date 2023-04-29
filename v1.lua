@@ -97,6 +97,18 @@ local Section2 = Tab2:Section({
    Text = "PSX" ,
     Side = "Left"
 })
+Section2:Button({
+   Text = "Black Trap",
+   Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/jmRUdL17"))()
+   end
+})
+Section2:Button({
+   Text = "Key = TEST_KEY",
+   Callback = function()      
+   end
+})
+
 ---------AFS Section-----------
 local Section2 = Tab2:Section({
    Text = "AFS" ,
