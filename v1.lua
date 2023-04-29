@@ -33,7 +33,7 @@ local Flags = Library.Flags
 local Window = Library:Window({
    Text = "MrPectable HUB"
 })
-
+---------Windows Section-----------
 local Tab = Window:Tab({
    Text = "Local Player"
 })
@@ -68,12 +68,12 @@ local Tab9 = Window:Tab({
 local Tab10 = Window:Tab({
    Text = "Credits"
 })
-
+---------Player Section-----------
 local Section = Tab:Section({
    Text = "Player" ,
     Side = "Left"
 })
-
+---------Admin Section-----------
 local Section = Tab:Section({
    Text = "Admin" ,
     Side = "Right"
@@ -92,12 +92,12 @@ Section:Toggle({
        warn(bool)
    end
 })
-
+---------PSX Section-----------
 local Section2 = Tab2:Section({
    Text = "PSX" ,
     Side = "Left"
 })
-
+---------AFS Section-----------
 local Section2 = Tab2:Section({
    Text = "AFS" ,
     Side = "Left"
@@ -116,7 +116,7 @@ Section2:Toggle({
        warn(bool)
    end
 })
-
+---------Blox Fruits Section-----------
 
 local Section2 = Tab2:Section({
    Text = "Blox Fruits" ,
@@ -186,7 +186,7 @@ Section2:Toggle({
        warn(bool)
    end
 })
-
+---------Bloxburg Section-----------
 
 local Section2 = Tab2:Section({
    Text = "Blox Burg" ,
@@ -199,6 +199,7 @@ Section2:Toggle({
        warn(bool)
    end
 })
+---------Double Down Section-----------
 local Section2 = Tab2:Section({
    Text = "Double Down" ,
     Side = "Right"
@@ -277,7 +278,7 @@ end
        warn("Block Drop.")
    end
 })
-
+---------Dahood Section-----------
 local Section2 = Tab2:Section({
    Text = "DaHood" ,
     Side = "Right"
@@ -319,6 +320,7 @@ Section2:Toggle({
        warn(bool)
    end
 })
+---------Ragdoll Section-----------
 
 local Section2 = Tab2:Section({
    Text = "Ragdoll" ,
@@ -330,7 +332,7 @@ Section2:Toggle({
        warn(bool)
    end
 })
-
+---------Arsenal Section-----------
 local Section2 = Tab2:Section({
    Text = "Arsenal" ,
     Side = "Left"
@@ -349,6 +351,7 @@ Section2:Toggle({
        warn(bool)
    end
 })
+---------Prison Life Section-----------
 local Section2 = Tab2:Section({
    Text = "Prison Life" ,
     Side = "Left"
@@ -367,11 +370,12 @@ Section2:Toggle({
        warn(bool)
    end
 })
+---------Adopt Me Section-----------
 local Section2 = Tab2:Section({
    Text = "Adopt Me" ,
     Side = "Right"
 })
-
+---------MM2 Section-----------
 
 local Section2 = Tab2:Section({
    Text = "MM2" ,
@@ -385,20 +389,20 @@ loadstring(game:HttpGet("https://scripts.luawl.com/hosted/3073/18680/JensHub.lua
        warn(bool)
    end
 })
-
+---------BrookHaven Section-----------
 
 local Section2 = Tab2:Section({
    Text = "BrookHaven" ,
     Side = "Right"
 })
 
-
+---------Meep City Section-----------
 local Section2 = Tab2:Section({
    Text = "MeepCity" ,
     Side = "Right"
 })
 
-
+---------Doors Section-----------
 local Section2 = Tab2:Section({
    Text = "Doors" ,
     Side = "Right"
@@ -410,7 +414,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/toosiwhip/statue-v7/m
        warn(bool)
    end
 })
-
+---------Evade Section-----------
 local Section2 = Tab2:Section({
    Text = "Evade" ,
     Side = "Right"
@@ -422,7 +426,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/7P3q488J"))()
        warn(bool)
    end
 })
-
+---------Build a Boat Section-----------
 local Section2 = Tab2:Section({
    Text = "BABFT" ,
     Side = "Left"
@@ -436,22 +440,22 @@ Section2:Toggle({
        warn(bool)
    end
 })
-
+---------Islands Section-----------
 local Section2 = Tab2:Section({
    Text = "Islands" ,
     Side = "Left"
 })
-
+--------- FTF Section-----------
 local Section2 = Tab2:Section({
    Text = "Flee The Facility" ,
     Side = "Left"
 })
-
+---------Bed wars Section-----------
 local Section2 = Tab2:Section({
    Text = "Bedwars" ,
     Side = "Left"
 })
-
+---------KAT Section-----------
 local Section2 = Tab2:Section({
    Text = "K.A.T" ,
     Side = "Left"
@@ -464,7 +468,7 @@ Section2:Toggle({
        warn(bool)
    end
 })
-
+---------Section-----------
 local Section2 = Tab2:Section({
    Text = "More Soon..." ,
     Side = "Left"
@@ -474,7 +478,7 @@ local Section2 = Tab2:Section({
 
 
 
-
+---------Dont Touch This-----------
 local Section3 = Tab3:Section({
    Text = "Soon..."
 })
@@ -557,7 +561,7 @@ Section:Button({
        drop:Add("Updating")
    end
 })
-
+---------Section 10 Credits-----------
 local Section10 = Tab10:Section({
    Text = "BIG HELPERS" ,
     Side = "Left"
@@ -600,6 +604,7 @@ Section10:Button({
        
    end
 })
+---------Section 4-----------
 local Section4 = Tab4:Section({
    Text = "ProjectEvo" ,
     Side = "Left"
