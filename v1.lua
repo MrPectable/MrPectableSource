@@ -128,7 +128,7 @@ Section2:Toggle({
             wait()
         end   
           end)
-      end)
+      end
        warn(value)
    end
 })
@@ -144,7 +144,7 @@ Section2:Toggle({
             wait()
         end      
       end)
-  end)
+  end
        warn(value)
    end
 })
@@ -160,7 +160,7 @@ Section2:Toggle({
             wait()
         end      
       end)
-end)
+end
        warn(value)
    end
 })
