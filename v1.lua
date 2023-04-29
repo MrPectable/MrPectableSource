@@ -108,6 +108,19 @@ Section2:Button({
    Callback = function()      
    end
 })
+Section2:Button({
+   Text = "ExtremeHub",
+   Callback = function() 
+      _G.ExtremeHUBLoaded = true
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/All-Scripts-Obfuscated.lua'))()   
+   end
+})
+Section2:Button({
+   Text = "CloudHub",
+   Callback = function()   
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()   
+   end
+})
 
 ---------AFS Section-----------
 local Section2 = Tab2:Section({
