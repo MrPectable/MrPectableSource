@@ -100,6 +100,77 @@ end)
 
 local LP = UI:addPage("AFS",3,false,7)
 
+LP:addToggle("Auto Strength",function(value)
+    if value == false then
+     getgenv().autos = value
+    spawn(function()
+        while autos == false do
+            local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
+            Player.SendToServer("")
+            wait()
+        end
+   
+    else
+      getgenv().autos = value
+    spawn(function()
+        while autos == true do
+            local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
+            Player.SendToServer("Strength")
+            wait()
+        end
+    end
+end)
+
+ LP:addToggle("Auto Durability",function(value)
+    if value == false then
+     getgenv().autos = value
+    spawn(function()
+        while autos == false do
+            local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
+            Player.SendToServer("")
+            wait()
+        end
+   
+    else
+      getgenv().autos = value
+    spawn(function()
+        while autos == true do
+            local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
+            Player.SendToServer("Durability")
+            wait()
+        end
+    end
+end)
+                                                                                               
+  LP:addToggle("Auto Chakra",function(value)
+    if value == false then
+     getgenv().autos = value
+    spawn(function()
+        while autos == false do
+            local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
+            Player.SendToServer("")
+            wait()
+        end
+   
+    else
+      getgenv().autos = value
+    spawn(function()
+        while autos == true do
+            local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
+            Player.SendToServer("Chakra")
+            wait()
+        end
+    end
+end)
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+
 LP:addTextBox("HitBox Expander","Number here",function(value)
 
    _G.HeadSize = value
