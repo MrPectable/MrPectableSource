@@ -116,54 +116,6 @@ Section2:Toggle({
        warn(bool)
    end
 })
-Section2:Toggle({
-   Text = "Auto Train Strength",
-   Callback = function(value) 
-      
-         getgenv().autos = value
-    spawn(function()
-        while autos == true do
-            local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
-            Player.SendToServer("Strength")
-            wait()
-        end   
-          end)
-      end
-       warn(value)
-   end
-})
-Section2:Toggle({
-   Text = "Auto Train Durability",
-   Callback = function(value) 
-          
-        getgenv().autos = value
-    spawn(function()
-        while autos == true do
-            local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
-            Player.SendToServer("Durability")
-            wait()
-        end      
-      end)
-  end
-       warn(value)
-   end
-})
-Section2:Toggle({
-   Text = "Auto Train Chakra",
-   Callback = function(value) 
-              
-        getgenv().autos = value
-    spawn(function()
-        while autos == true do
-            local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
-            Player.SendToServer("Chakra")
-            wait()
-        end      
-      end)
-end
-       warn(value)
-   end
-})
 
 
 local Section2 = Tab2:Section({
@@ -628,10 +580,10 @@ Section10:Toggle({
    end
 })
 Section10:Button({
-   Text = "Script Provider AFS",
+   Text = "Script Provider",
    Callback = function()      
    end
-})            
+})
 local Section10 = Tab10:Section({
    Text = "Small HELPERS" ,
     Side = "Right"
