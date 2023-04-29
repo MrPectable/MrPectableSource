@@ -127,7 +127,8 @@ Section2:Toggle({
             Player.SendToServer("Strength")
             wait()
         end   
-          
+          end)
+      end)
        warn(value)
    end
 })
@@ -142,7 +143,8 @@ Section2:Toggle({
             Player.SendToServer("Durability")
             wait()
         end      
-      
+      end)
+  end)
        warn(value)
    end
 })
@@ -157,7 +159,8 @@ Section2:Toggle({
             Player.SendToServer("Chakra")
             wait()
         end      
-      
+      end)
+end)
        warn(value)
    end
 })
