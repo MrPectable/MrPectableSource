@@ -621,6 +621,17 @@ Section10:Button({
    Callback = function()      
    end
 })
+Section10:Toggle({
+   Text = "Gluhh#4570",
+   Callback = function(bool)
+       warn(bool)
+   end
+})
+Section10:Button({
+   Text = "Script Provider AFS",
+   Callback = function()      
+   end
+})            
 local Section10 = Tab10:Section({
    Text = "Small HELPERS" ,
     Side = "Right"
