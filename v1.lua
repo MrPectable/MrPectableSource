@@ -116,6 +116,13 @@ Section2:Toggle({
        warn(bool)
    end
 })
+local drop = Section2:Dropdown({
+   Text = "Choose",
+   List = {"Auto Chakra", "Auto Durability","Auto Strength","Auto Sword","Auto Agility","Auto Speed"},
+   Callback = function(v)
+       warn(v)
+   end
+})
 ---------Blox Fruits Section-----------
 
 local Section2 = Tab2:Section({
