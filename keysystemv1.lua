@@ -5,7 +5,7 @@ local Window = OrionLib:MakeWindow({Name = "MrPectable Key System", HidePremium 
 OrionLib:MakeNotification({
 	Name = "Logged in!",
 	Content = "You Are Logged in As"..Player.Name..".",
-	Image = "rbxassetid://13146328300",
+	Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 	Time = 5
 })
 
@@ -22,7 +22,7 @@ function IncorrectKeyNotifaction()
   OrionLib:MakeNotification({
 	Name = "Incorrect Key",
 	Content = "Join The Discord - ybeRybYN89",
-	Image = "rbxassetid://13146328300",
+	Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 	Time = 5
 })
 end
@@ -30,7 +30,7 @@ function CorrectKeyNotifaction()
   OrionLib:MakeNotification({
 	Name = "Correct Key",
 	Content = "Key Was Accepted!",
-	Image = "rbxassetid://13146328300",
+	Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 	Time = 5
 })
 end
