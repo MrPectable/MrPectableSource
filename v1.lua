@@ -94,6 +94,11 @@ Section:Toggle({
 function Shiftlock()
 loadstring(game:HttpGet('https://pastebin.com/raw/Pf0hUKd1'))()
 end
+
+function Vape4()
+loadstring(game:HttpGet('https://pastebin.com/raw/6MedzEis'))()
+end
+
 ---------Admin Section-----------
 local Section = Tab:Section({
    Text = "Admin" ,
@@ -502,6 +507,17 @@ local Section2 = Tab2:Section({
 local Section2 = Tab2:Section({
    Text = "Bedwars" ,
     Side = "Left"
+})
+Section2:Toggle({
+   Text = "Vape4",
+   Callback = function(bool)
+      if bool == true then
+     Vape4()
+       warn(bool)
+     else 
+      
+     end 
+     end
 })
 ---------KAT Section-----------
 local Section2 = Tab2:Section({
