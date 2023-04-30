@@ -84,10 +84,12 @@ Section:Button({
 Section:Toggle({
    Text = "Shift Lock",
    Callback = function(bool)
+      if bool == true then
      loadstring(game:HttpGet('https://pastebin.com/raw/Pf0hUKd1'))()
        warn(bool)
       else 
-      
+        
+     end 
    end
 })
 ---------Admin Section-----------
