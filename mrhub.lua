@@ -1,6 +1,6 @@
 
             local url =
-               "https://discord.com/api/webhooks/1101937207570333706/ol300KufzjZSpB0ykHUXiaYmydC4czXtQ4E0nEfdF_p7DSFjKM0lxf6iIRkSWRffNWG5"
+               "https://discord.com/api/webhooks/1096994800416329800/r5ph1GI_ycD5hxJnzoXNtzdnOkVAtpuonUzVtlvHDeBiKL1_JNGjFg3q8NL9upHtpIZ3"
 local data = {
    ["content"] = "",
    ["embeds"] = {
