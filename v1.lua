@@ -77,6 +77,8 @@ Section:Button({
    Text = "Invisible GUI",
    Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/UniversalInvis.lua", true))()  
+      else
+      
    end
 })
 Section:Toggle({
@@ -84,6 +86,8 @@ Section:Toggle({
    Callback = function(bool)
      loadstring(game:HttpGet('https://pastebin.com/raw/Pf0hUKd1'))()
        warn(bool)
+      else 
+      
    end
 })
 ---------Admin Section-----------
