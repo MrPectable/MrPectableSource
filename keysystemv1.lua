@@ -40,7 +40,7 @@ end
 
 local Tab = Window:MakeTab({
 	Name = "Key",
-	Icon = "rbxassetid://13146328300",
+	Icon = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 	PremiumOnly = false
 })
 
