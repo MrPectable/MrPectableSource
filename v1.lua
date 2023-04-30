@@ -73,12 +73,6 @@ local Section = Tab:Section({
    Text = "Player" ,
     Side = "Left"
 })
-Section:Button({
-   Text = "Invisible GUI",
-   Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/UniversalInvis.lua", true))() 
-   end
-})
 Section:Toggle({
    Text = "Shift Lock",
    Callback = function(bool)
@@ -110,6 +104,20 @@ end
 end
 end
 end)   
+   end
+})
+Section:Input({
+   Text = "Speed",
+   Callback = function(txt)
+      game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+       warn(txt)
+   end
+})
+Section:Input({
+   Text = "Zoom Size",
+   Callback = function(txt)
+      game.Players.LocalPlayer.CameraMaxZoomDistance = txt
+       warn(txt)
    end
 })
 ---------Functions---------------
@@ -589,13 +597,6 @@ local Section2 = Tab2:Section({
 local Section3 = Tab3:Section({
    Text = "Soon..."
 })
-Section:Input({
-   Text = "Zoom Size",
-   Callback = function(txt)
-      game.Players.LocalPlayer.CameraMaxZoomDistance = txt
-       warn(txt)
-   end
-})
 
 Section2:Button({
    Text = "Im Coding rn :D",
@@ -620,15 +621,6 @@ Section2:Input({
        warn(txt)
    end
 })
-
-Section:Input({
-   Text = "Speed",
-   Callback = function(txt)
-      game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
-       warn(txt)
-   end
-})
-
 local drop = Section:Dropdown({
    Text = "Choose",
    List = {"Beta", "Test"},
