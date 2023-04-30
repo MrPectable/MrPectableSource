@@ -148,6 +148,16 @@ local drop = Section2:Dropdown({
        warn(v)
    end
 })
+local drop = Section2:Dropdown({
+   Text = "Choose",
+   List = {"D1", "D2","D3","D4","D5","D6"},
+   Callback = function(v)
+      drop = function (D1)  
+   game:GetService("TeleportService"):Teleport(4042427666, game.Players.LocalPlayer)  
+        end)
+       warn(v)
+   end
+})
 ---------Blox Fruits Section-----------
 
 local Section2 = Tab2:Section({
