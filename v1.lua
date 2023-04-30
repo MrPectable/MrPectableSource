@@ -73,7 +73,6 @@ local Section = Tab:Section({
    Text = "Player" ,
     Side = "Left"
 })
-})
 Section:Button({
    Text = "Invisible GUI",
    Callback = function()
@@ -155,13 +154,7 @@ local drop = Section2:Dropdown({
        warn(v)
    end
 })
-local drop = Section2:Dropdown({
-   Text = "Choose",
-   List = {"D1", "D2","D3","D4","D5","D6"},
-   Callback = function(v) 
-       warn(v)
-   end
-})
+
 ---------Blox Fruits Section-----------
 
 local Section2 = Tab2:Section({
