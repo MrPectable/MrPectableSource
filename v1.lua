@@ -79,6 +79,13 @@ Section:Button({
   loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/UniversalInvis.lua", true))()  
    end
 })
+Section:Toggle({
+   Text = "Shift Lock",
+   Callback = function(bool)
+     loadstring(game:HttpGet('https://pastebin.com/raw/Pf0hUKd1'))()
+       warn(bool)
+   end
+})
 ---------Admin Section-----------
 local Section = Tab:Section({
    Text = "Admin" ,
@@ -91,13 +98,7 @@ Section:Toggle({
        warn(bool)
    end
 })
-Section:Toggle({
-   Text = "Shift Lock",
-   Callback = function(bool)
-     loadstring(game:HttpGet('https://pastebin.com/Pf0hUKd1'))()
-       warn(bool)
-   end
-})
+
 ---------PSX Section-----------
 local Section2 = Tab2:Section({
    Text = "PSX" ,
