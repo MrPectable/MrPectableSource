@@ -90,6 +90,28 @@ Section:Toggle({
      end 
      end
 })
+Section:Input({
+   Text = "HitBox Size",
+   Callback = function(Value)
+      _G.HeadSize = Value
+_G.Disabled = true
+    game:GetService('RunService').RenderStepped:connect(function()
+if _G.Disabled then
+for i,v in next, game:GetService('Players'):GetPlayers() do
+if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+pcall(function()
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+v.Character.HumanoidRootPart.Transparency = 100
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really White")
+v.Character.HumanoidRootPart.Material = "Glass"
+v.Character.HumanoidRootPart.CanCollide = false
+end)
+end
+end
+end
+end)   
+   end
+})
 ---------Functions---------------
 function Shiftlock()
 loadstring(game:HttpGet('https://pastebin.com/raw/Pf0hUKd1'))()
@@ -607,15 +629,6 @@ Section:Input({
    end
 })
 
-Section:Input({
-   Text = "Hitbox Size",
-   Callback = function(txt)
-      
-    
-       warn(txt)
-   end
-})
-
 local drop = Section:Dropdown({
    Text = "Choose",
    List = {"Beta", "Test"},
@@ -623,19 +636,11 @@ local drop = Section:Dropdown({
        warn(v)
    end
 })
-
 Section:Slider({
    Text = "N/A",
    Default = 25,
    Minimum = 0,
    Maximum = 200
-})
-
-Section:Toggle({
-   Text = "N/A",
-   Callback = function(bool)
-       warn(bool)
-   end
 })
 
 Section:Button({
