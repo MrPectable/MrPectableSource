@@ -73,6 +73,13 @@ local Section = Tab:Section({
    Text = "Player" ,
     Side = "Left"
 })
+})
+Section:Button({
+   Text = "Invisible GUI",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/UniversalInvis.lua", true))()  
+   end
+})
 ---------Admin Section-----------
 local Section = Tab:Section({
    Text = "Admin" ,
