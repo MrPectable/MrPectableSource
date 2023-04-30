@@ -76,22 +76,24 @@ local Section = Tab:Section({
 Section:Button({
    Text = "Invisible GUI",
    Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/UniversalInvis.lua", true))()  
-      else
-      
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/UniversalInvis.lua", true))() 
    end
 })
 Section:Toggle({
    Text = "Shift Lock",
    Callback = function(bool)
       if bool == true then
-     loadstring(game:HttpGet('https://pastebin.com/raw/Pf0hUKd1'))()
+     Shiftlock()
        warn(bool)
-      else 
-        
+     else 
+      
      end 
-   end
+     end
 })
+---------Functions---------------
+function Shiftlock()
+loadstring(game:HttpGet('https://pastebin.com/raw/Pf0hUKd1'))()
+end
 ---------Admin Section-----------
 local Section = Tab:Section({
    Text = "Admin" ,
