@@ -137,9 +137,35 @@ local Section = Tab:Section({
 Section:Toggle({
    Text = "Infinite Yield",
    Callback = function(bool)
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+      if bool == true then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
        warn(bool)
-   end
+     else 
+      
+     end 
+     end
+})
+Section:Toggle({
+   Text = "Simplity",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplityv2/main/main"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section:Toggle({
+   Text = "Nameless Admin",
+   Callback = function(bool)
+      if bool == true then
+     Shiftlock()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()    
+     else 
+      
+     end 
+     end
 })
 
 ---------PSX Section-----------
@@ -467,13 +493,18 @@ Section2:Toggle({
        warn(bool)
    end
 })
-Section2:Toggle({
-   Text = "Soon",
+Section:Toggle({
+   Text = "PrisonWare",
    Callback = function(bool)
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))() 
+      if bool == true then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();        
        warn(bool)
-   end
+     else 
+      
+     end 
+     end
 })
+
 ---------Adopt Me Section-----------
 local Section2 = Tab2:Section({
    Text = "Adopt Me" ,
@@ -499,7 +530,17 @@ local Section2 = Tab2:Section({
    Text = "BrookHaven" ,
     Side = "Right"
 })
-
+Section:Toggle({
+   Text = "Ice Hub",
+   Callback = function(bool)
+      if bool == true then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/kaidacoder/Scriptdetection/main/Scriptsearcher.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 ---------Meep City Section-----------
 local Section2 = Tab2:Section({
    Text = "MeepCity" ,
