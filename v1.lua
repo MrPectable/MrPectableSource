@@ -493,7 +493,7 @@ Section2:Toggle({
        warn(bool)
    end
 })
-Section:Toggle({
+Section2:Toggle({
    Text = "PrisonWare",
    Callback = function(bool)
       if bool == true then
@@ -530,7 +530,7 @@ local Section2 = Tab2:Section({
    Text = "BrookHaven" ,
     Side = "Right"
 })
-Section:Toggle({
+Section2:Toggle({
    Text = "Ice Hub",
    Callback = function(bool)
       if bool == true then
