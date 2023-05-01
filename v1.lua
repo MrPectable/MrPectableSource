@@ -51,13 +51,13 @@ local Tab4 = Window:Tab({
 })
 
 local Tab5 = Window:Tab({
-   Text = "Soon..."
+   Text = "Game Client"
 })
 local Tab6 = Window:Tab({
-   Text = "Soon..."
+   Text = "Game Local"
 })
 local Tab7 = Window:Tab({
-   Text = "Soon..."
+   Text = "Game Visuals"
 })
 local Tab8 = Window:Tab({
    Text = "Soon..."
