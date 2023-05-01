@@ -60,7 +60,7 @@ local Tab7 = Window:Tab({
    Text = "Game Visuals"
 })
 local Tab8 = Window:Tab({
-   Text = "Soon..."
+   Text = "Recent Updates!"
 })
 local Tab9 = Window:Tab({
    Text = "Soon..."
@@ -251,6 +251,17 @@ end)
 local Section2 = Tab2:Section({
    Text = "Blox Fruits" ,
     Side = "Left"
+})
+Section2:Toggle({
+   Text = "AloneHub PVP",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AloneBiNgu/AloneHub/main/PvpGui.lua"))()        
+       warn(bool)
+     else 
+      
+     end 
+     end
 })
 Section2:Toggle({
    Text = "Atomic HUB",
@@ -510,6 +521,29 @@ local Section2 = Tab2:Section({
    Text = "Adopt Me" ,
     Side = "Right"
 })
+Section2:Toggle({
+   Text = "V.G HUB",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Unfair HUB",
+   Callback = function(bool)
+      if bool == true then
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+
 ---------MM2 Section-----------
 
 local Section2 = Tab2:Section({
@@ -546,7 +580,28 @@ local Section2 = Tab2:Section({
    Text = "MeepCity" ,
     Side = "Right"
 })
-
+Section2:Toggle({
+   Text = "Meep HUB",
+   Callback = function(bool)
+      if bool == true then
+    --[[made by synolope ;)]] loadstring(game:HttpGet("https://raw.githubusercontent.com/synolope/mpcity/main/loader.lua",true))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "V.G HUB",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 ---------Doors Section-----------
 local Section2 = Tab2:Section({
    Text = "Doors" ,
@@ -559,6 +614,8 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/toosiwhip/statue-v7/m
        warn(bool)
    end
 })
+
+
 ---------Evade Section-----------
 local Section2 = Tab2:Section({
    Text = "Evade" ,
@@ -571,10 +628,46 @@ loadstring(game:HttpGet("https://pastebin.com/raw/7P3q488J"))()
        warn(bool)
    end
 })
+Section2:Toggle({
+   Text = "Roflux",
+   Callback = function(bool)
+      if bool == true then
+pcall(function()
+  loadstring(game:HttpGet("https://roflux.net/scripts/games/" .. tostring(game.PlaceId) .. ".lua"))()
+end)
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+        
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+
 ---------Build a Boat Section-----------
 local Section2 = Tab2:Section({
    Text = "BABFT" ,
     Side = "Left"
+})
+Section2:Toggle({
+   Text = "BTUS HUB",
+   Callback = function(bool)
+      if bool == true then
+    local a,b,c = "juywvm","main","babft";loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/%s/-Roblox-Projects-/%s/%s"):format(a, b, c)))()
+       warn(bool)
+     else 
+      
+     end 
+     end
 })
 
 
