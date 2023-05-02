@@ -8,7 +8,7 @@ OrionLib:MakeNotification({
 	Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 	Time = 5
 })
-
+_G.Key2 = "Hydrogen"
 _G.Key = "Coems"
 _G.KeyInput = "string"
 
@@ -57,7 +57,7 @@ Tab:AddTextbox({
 Tab:AddButton({
 	Name = "Check Key!",
 	Callback = function()
-      if _G.KeyInput == _G.Key then
+      if _G.KeyInput == _G.Key , _G.Key2 then
         MakeScriptHub()
         CorrectKeyNotifaction()
         else
