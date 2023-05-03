@@ -84,6 +84,17 @@ Section:Toggle({
      end 
      end
 })
+Section:Toggle({
+   Text = "FPS Booster",
+   Callback = function(bool)
+      if bool == true then
+     BoostFPS()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 Section:Input({
    Text = "HitBox Size",
    Callback = function(Value)
@@ -127,6 +138,10 @@ end
 
 function Vape4()
 loadstring(game:HttpGet('https://pastebin.com/raw/6MedzEis'))()
+end
+
+function BoostFPS()
+loadstring(game:HttpGet('https://pastebin.com/raw/3mbHNhXc'))()
 end
 
 ---------Admin Section-----------
@@ -198,10 +213,10 @@ Section2:Button({
    end
 })
 Section2:Toggle({
-   Text = "Project WD",
+   Text = "Fixing PW",
    Callback = function(bool)
       if bool == true then
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/keybypasses/main/projectwd.lua"))()
+     
        warn(bool)
      else 
       
@@ -209,10 +224,10 @@ Section2:Toggle({
      end
 })
 Section2:Toggle({
-   Text = "SAZA",
+   Text = "Fixing Saza",
    Callback = function(bool)
       if bool == true then
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/KuppaHX/Saza/main/SazaLoader.lua")()
+    
        warn(bool)
      else 
       
@@ -524,14 +539,15 @@ local Section2 = Tab2:Section({
 Section2:Toggle({
    Text = "Ragdoll GUI",
    Callback = function(bool)
+      
        warn(bool)
    end
 })
 Section2:Toggle({
-   Text = "Inferno Hub",
+   Text = "MH Hub",
    Callback = function(bool)
       if bool == true then
-     loadstring(game:HttpGet("https://gitlab.com/omnilocua/makima-project/-/raw/main/InfernoHub.lua"))()
+     loadstring(game:HttpGet('https://gist.githubusercontent.com/H20CalibreYT/462f6e6236a9371130f113def6549bb1/raw/'))()
        warn(bool)
      else 
       
