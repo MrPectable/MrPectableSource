@@ -996,7 +996,7 @@ local Section8 = Tab8:Section({
     Side = "Left"
 })
 Section8:Toggle({
-   Text = "Last Updated Hub [8:14PM EST Tue May 2nd]",
+   Text = "8:14PM EST",
    Callback = function(bool)
       if bool == true then
 
@@ -1006,8 +1006,26 @@ Section8:Toggle({
      end 
      end
 })
+Section8:Toggle({
+   Text = "Tuesday May 2nd",
+   Callback = function(bool)
+      if bool == true then
+
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Button({
+   Text = "Last Update",
+   Callback = function()
+    
+   end
+})
+
 local Section8 = Tab8:Section({
-   Text = "Statue" ,
+   Text = "Status" ,
     Side = "Right"
 })
 Section8:Toggle({
