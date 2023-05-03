@@ -991,6 +991,10 @@ Section4:Toggle({
    end
 })
 -------Update Log-----
+local Section8 = Tab8:Section({
+   Text = "Update Log" ,
+    Side = "Left"
+})
 Section8:Toggle({
    Text = "Last Updated Hub [8:14PM EST Tue May 2nd]",
    Callback = function(bool)
@@ -1002,7 +1006,20 @@ Section8:Toggle({
      end 
      end
 })
+local Section8 = Tab8:Section({
+   Text = "Statue" ,
+    Side = "Right"
+})
+Section8:Toggle({
+   Text = "Working!",
+   Callback = function(bool)
+      if bool == true then
 
-
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 
 Tab:Select()
