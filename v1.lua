@@ -197,7 +197,28 @@ Section2:Button({
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()   
    end
 })
-
+Section2:Toggle({
+   Text = "Project WD",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/RiseValco/keybypasses/main/projectwd.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "SAZA",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/KuppaHX/Saza/main/SazaLoader.lua")()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 ---------AFS Section-----------
 local Section2 = Tab2:Section({
    Text = "AFS" ,
@@ -327,6 +348,17 @@ Section2:Toggle({
        warn(bool)
    end
 })
+Section2:Toggle({
+   Text = "Fruit Sniper",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Robobo2022/script/main/FruitSniper.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 ---------Bloxburg Section-----------
 
 local Section2 = Tab2:Section({
@@ -339,6 +371,17 @@ Section2:Toggle({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulDestroyer/Roblox/main/Scar%20Hub"))()   
        warn(bool)
    end
+})
+Section2:Toggle({
+   Text = "Illusion",
+   Callback = function(bool)
+      if bool == true then
+     local http_request = http_request or request or (syn and syn.request) or (http and http.request) loadstring(http_request({Url="https://projectillusion.dev/beta/illusion/illusion_bloxburg.lua",Method="GET"}).Body)()
+       warn(bool)
+     else 
+      
+     end 
+     end
 })
 ---------Double Down Section-----------
 local Section2 = Tab2:Section({
@@ -419,6 +462,17 @@ end
        warn("Block Drop.")
    end
 })
+Section2:Toggle({
+   Text = "Sword Fight",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 ---------Dahood Section-----------
 local Section2 = Tab2:Section({
    Text = "DaHood" ,
@@ -473,6 +527,17 @@ Section2:Toggle({
        warn(bool)
    end
 })
+Section2:Toggle({
+   Text = "Inferno Hub",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://gitlab.com/omnilocua/makima-project/-/raw/main/InfernoHub.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 ---------Arsenal Section-----------
 local Section2 = Tab2:Section({
    Text = "Arsenal" ,
@@ -486,9 +551,9 @@ Section2:Toggle({
    end
 })
 Section2:Toggle({
-   Text = "Soon",
+   Text = "Owl Hub",
    Callback = function(bool)
-      
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
        warn(bool)
    end
 })
@@ -614,7 +679,17 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/toosiwhip/statue-v7/m
        warn(bool)
    end
 })
-
+Section2:Toggle({
+   Text = "PDoors GUI",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))() 
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 
 ---------Evade Section-----------
 local Section2 = Tab2:Section({
@@ -683,11 +758,61 @@ local Section2 = Tab2:Section({
    Text = "Islands" ,
     Side = "Left"
 })
+Section2:Toggle({
+   Text = "One Protocol",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneProtocol/Project/main/Loader", true))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "IRS",
+   Callback = function(bool)
+      if bool == true then
+    -- how to get key: go in the discord server and type /key in #bot-cmds
+-- https://discord.gg/Pebq4DtBTW
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Islands-IRS/public/main/Islands')))()
+-- made by bon bon, itoshi  and demonic
+        
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 --------- FTF Section-----------
 local Section2 = Tab2:Section({
    Text = "Flee The Facility" ,
     Side = "Left"
 })
+Section2:Toggle({
+   Text = "Khoa",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/khoaScript/scripts/master/flee-the-facility.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Artic Hub",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGetAsync("https://polar7.wtf/Arctic/ArcticHub/Loader.txt"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+
 ---------Bed wars Section-----------
 local Section2 = Tab2:Section({
    Text = "Bedwars" ,
@@ -865,4 +990,19 @@ Section4:Toggle({
        warn(bool)
    end
 })
+-------Update Log-----
+Section8:Toggle({
+   Text = "Last Updated Hub [8:14PM EST Tue May 2nd]",
+   Callback = function(bool)
+      if bool == true then
+
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+
+
+
 Tab:Select()
