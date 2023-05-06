@@ -1541,9 +1541,7 @@ Section8:Toggle({
 -------------------------
 Section:Input({
    Text = "Bug Report",
-   Callback = function(txt)
-      description = txt
-      
+   Callback = function(txt) 
      local url =
                "https://discord.com/api/webhooks/1104458672182145045/TLxAIl1UWvE4uoL_lZgF91QHSJlCqYkwP8uG3fHYOl1alk05PtWzfagp1Jl9hbWaHaUw"
 local data = {
