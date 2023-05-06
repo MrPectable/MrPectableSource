@@ -651,7 +651,17 @@ Section2:Toggle({
      end 
      end
 })
-
+Section2:Toggle({
+   Text = "FE Tools",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://pastebin.com/raw/AZVi2tuK"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 ---------Adopt Me Section-----------
 local Section2 = Tab2:Section({
    Text = "Adopt Me" ,
