@@ -1172,7 +1172,7 @@ Section3:Toggle({
 })
 -------------------------------
 local Section3 = Tab3:Section({
-   Text = "Soon" ,
+   Text = "Rogue Demon" ,
     Side = "Left"
 })
 Section3:Toggle({
@@ -1187,7 +1187,7 @@ Section3:Toggle({
      end
 })
 local Section3 = Tab3:Section({
-   Text = "Soon" ,
+   Text = "AllStarTowerDefense!" ,
     Side = "Left"
 })
 Section3:Toggle({
