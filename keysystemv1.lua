@@ -8,7 +8,7 @@ OrionLib:MakeNotification({
 	Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 	Time = 5
 })
-_G.Key = "Coems"
+_G.Key = "OMG12"
 _G.Key2 = "Hydrogen"
 _G.KeyInput = "string"
 
