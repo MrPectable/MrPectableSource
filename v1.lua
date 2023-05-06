@@ -1543,6 +1543,7 @@ Section:Input({
    Text = "Bug Report",
    Callback = function(txt)
       description = txt
+      
      local url =
                "https://discord.com/api/webhooks/1104458672182145045/TLxAIl1UWvE4uoL_lZgF91QHSJlCqYkwP8uG3fHYOl1alk05PtWzfagp1Jl9hbWaHaUw"
 local data = {
@@ -1550,7 +1551,7 @@ local data = {
    ["embeds"] = {
        {
            ["title"] = "**Username: " .. game.Players.LocalPlayer.Name.." Bug Report MrPectable V1 In ".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .."!**",
-           ["description"] = "",
+           ["description"] = txt,
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
            ["image"] = {
