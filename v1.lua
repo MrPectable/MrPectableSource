@@ -1046,11 +1046,10 @@ Section3:Toggle({
      end
 })
 Section3:Toggle({
-   Text = "Soon ",
+   Text = "Alpha",
    Callback = function(bool)
       if bool == true then
-   
-        
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/frkfx/Combat-Warriors/main/Script"))()
        warn(bool)
      else 
       
@@ -1106,36 +1105,72 @@ Section3:Toggle({
      end 
      end
 })
+------King Legacy-------
 local Section3 = Tab3:Section({
-   Text = "Soon" ,
+   Text = "King Legacy" ,
     Side = "Left"
 })
 Section3:Toggle({
-   Text = "Soon",
+   Text = "Black Trap",
    Callback = function(bool)
       if bool == true then
-     
+     loadstring(game:HttpGetAsync("https://blacktrap.org/blacktrap/users/checkpoint/Auth.txt"))()
        warn(bool)
      else 
       
      end 
      end
 })
+------- Shinobi Life 2------
 local Section3 = Tab3:Section({
-   Text = "Soon" ,
+   Text = "Shinobi Life 2" ,
     Side = "Left"
 })
 Section3:Toggle({
-   Text = "Soon",
+   Text = "VG",
    Callback = function(bool)
       if bool == true then
-     
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
        warn(bool)
      else 
       
      end 
      end
 })
+Section3:Toggle({
+   Text = "Premeir LITE",
+   Callback = function(bool)
+      if bool == true then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section3:Toggle({
+   Text = "Speed Ahmad",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Script%20Game"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section3:Toggle({
+   Text = "WD",
+   Callback = function(bool)
+      if bool == true then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+-------------------------------
 local Section3 = Tab3:Section({
    Text = "Soon" ,
     Side = "Left"
