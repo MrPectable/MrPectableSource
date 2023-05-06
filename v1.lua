@@ -1309,7 +1309,7 @@ local Section8 = Tab8:Section({
     Side = "Left"
 })
 Section8:Toggle({
-   Text = "5:14AM EST",
+   Text = "12:19AM EST",
    Callback = function(bool)
       if bool == true then
 
