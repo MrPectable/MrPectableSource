@@ -374,6 +374,28 @@ Section2:Toggle({
      end 
      end
 })
+Section2:Toggle({
+   Text = "Void Hub",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/jebblox/scriptdatabase/main/voidhub.lua"))()        
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Bolts Hub",
+   Callback = function(bool)
+      if bool == true then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/BoltsHubV5"))()        
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 ---------Bloxburg Section-----------
 
 local Section2 = Tab2:Section({
@@ -638,6 +660,18 @@ Section2:Toggle({
 loadstring(game:HttpGet("https://scripts.luawl.com/hosted/3073/18680/JensHub.lua"))()
        warn(bool)
    end
+})
+Section2:Toggle({
+   Text = "Eclipse Hub",
+   Callback = function(bool)
+      if bool == true then
+  getgenv().mainKey = "nil";
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()  
+       warn(bool)
+     else 
+      
+     end 
+     end
 })
 ---------BrookHaven Section-----------
 
@@ -918,6 +952,183 @@ Section:Button({
        drop:Add("Updating")
    end
 })
+----------Section 3 Games ------------
+local Section3 = Tab3:Section({
+   Text = "Slap Battles" ,
+    Side = "Left"
+})
+Section3:Toggle({
+   Text = "Slapper Hub",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/CatmemerAKAcatluga/Slap-Battles-Dev/main/Official-Slapper-Hub-v2.5.lua", true))(Roblox);
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section3:Toggle({
+   Text = "Whopper Hub",
+   Callback = function(bool)
+      if bool == true then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/qwertyui-cool/uhh-yes/main/whopper.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+local Section3 = Tab3:Section({
+   Text = "Combat Warriors" ,
+    Side = "Right"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+   
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Left"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Left"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Left"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Left"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Left"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Right"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Right"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Right"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Right"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 ---------Section 10 Credits-----------
 local Section10 = Tab10:Section({
    Text = "BIG HELPERS" ,
@@ -1012,7 +1223,7 @@ local Section8 = Tab8:Section({
     Side = "Left"
 })
 Section8:Toggle({
-   Text = "8:14PM EST",
+   Text = "5:14AM EST",
    Callback = function(bool)
       if bool == true then
 
@@ -1023,7 +1234,7 @@ Section8:Toggle({
      end
 })
 Section8:Toggle({
-   Text = "Tuesday May 2nd",
+   Text = "Saturday May 6th",
    Callback = function(bool)
       if bool == true then
 
