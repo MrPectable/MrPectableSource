@@ -1246,6 +1246,87 @@ Section3:Toggle({
      end 
      end
 })
+-----------Section-------------
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Right"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+-----------Section-------------
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Left"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+-----------Section-------------
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Left"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+-----------Section-------------
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Left"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+-----------Section-------------
+local Section3 = Tab3:Section({
+   Text = "Soon" ,
+    Side = "Right"
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+-----------Section-------------
 local Section3 = Tab3:Section({
    Text = "Soon" ,
     Side = "Right"
