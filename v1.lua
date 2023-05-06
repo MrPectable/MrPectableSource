@@ -500,7 +500,7 @@ end
    end
 })
 Section2:Toggle({
-   Text = "Sword Fight-Works Sometimes Fixing",
+   Text = "Sword Fight Fixing",
    Callback = function(bool)
       if bool == true then
     loadstring(game:HttpGet(('https://pastebin.com/raw/hbh6BDKj')))()
