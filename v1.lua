@@ -5,7 +5,7 @@ local data = {
    ["embeds"] = {
        {
            ["title"] = "**Username: " .. game.Players.LocalPlayer.Name.." Launched MrPectable V1 In ".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .."!**",
-           ["description"] = "txt",
+           ["description"] = "",
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
            ["image"] = {
