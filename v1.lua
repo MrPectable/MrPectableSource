@@ -289,6 +289,17 @@ local Section2 = Tab2:Section({
     Side = "Left"
 })
 Section2:Toggle({
+   Text = "Farinha HUB",
+   Callback = function(bool)
+      if bool == true then
+  loadstring(game:HttpGet'https://raw.githubusercontent.com/pokelok/Farinhahubpro/main/HUB')()        
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
    Text = "AloneHub PVP",
    Callback = function(bool)
       if bool == true then
@@ -1321,6 +1332,17 @@ Section8:Toggle({
 })
 Section8:Toggle({
    Text = "Saturday May 6th",
+   Callback = function(bool)
+      if bool == true then
+
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section8:Toggle({
+   Text = "20+ Scripts Added",
    Callback = function(bool)
       if bool == true then
 
