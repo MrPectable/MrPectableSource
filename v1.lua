@@ -903,10 +903,6 @@ local Section2 = Tab2:Section({
 
 
 ---------Dont Touch This-----------
-local Section3 = Tab3:Section({
-   Text = "Soon..."
-})
-
 Section2:Button({
    Text = "Im Coding rn :D",
    Callback = function()
