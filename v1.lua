@@ -500,10 +500,43 @@ end
    end
 })
 Section2:Toggle({
-   Text = "Sword Fight",
+   Text = "Sword Fight-Works Sometimes Fixing",
    Callback = function(bool)
       if bool == true then
-     
+    loadstring(game:HttpGet(('https://pastebin.com/raw/hbh6BDKj')))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Rock,Paper,Scissors",
+   Callback = function(bool)
+      if bool == true then
+    
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Balloon Pop",
+   Callback = function(bool)
+      if bool == true then
+    
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Price is Right",
+   Callback = function(bool)
+      if bool == true then
+    
        warn(bool)
      else 
       
