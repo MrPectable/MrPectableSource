@@ -213,10 +213,10 @@ Section2:Button({
    end
 })
 Section2:Toggle({
-   Text = "Fixing PW",
+   Text = "JMES",
    Callback = function(bool)
       if bool == true then
-     
+     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
        warn(bool)
      else 
       
@@ -1018,24 +1018,71 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/qwertyui-cool/uhh-yes
      end 
      end
 })
+--------Combat Warriors-------
 local Section3 = Tab3:Section({
    Text = "Combat Warriors" ,
     Side = "Right"
 })
 Section3:Toggle({
-   Text = "Soon",
+   Text = "Max Hub",
    Callback = function(bool)
       if bool == true then
-   
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1d4db6a1b04aaeccf046f7c63fbad31a.lua"))()
        warn(bool)
      else 
       
      end 
      end
 })
+Section3:Toggle({
+   Text = "Soon ",
+   Callback = function(bool)
+      if bool == true then
+   
+        
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section3:Toggle({
+   Text = "Tick Ware",
+   Callback = function(bool)
+      if bool == true then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/tickwares/tickware/main/Tickware"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+-------Lucky Blocks----------
 local Section3 = Tab3:Section({
-   Text = "Soon" ,
+   Text = "Lucky Blocks" ,
     Side = "Left"
+})
+Section3:Toggle({
+   Text = "Novice Hub",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/Amphvptere/Novice/main/LuckyBlock'))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section3:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
 })
 Section3:Toggle({
    Text = "Soon",
