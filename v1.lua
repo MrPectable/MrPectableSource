@@ -1433,6 +1433,16 @@ Section10:Button({
        
    end
 })
+local Section10 = Tab10:Section({
+   Text = "Discord Invite" ,
+    Side = "Right"
+})
+Section10:Toggle({
+   Text = "f6QWTHeEkd",
+   Callback = function(bool)
+       warn(bool)
+   end
+})
 ---------Section 4-----------
 local Section4 = Tab4:Section({
    Text = "ProjectEvo" ,
