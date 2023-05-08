@@ -1,5 +1,5 @@
 local url =
-               "https://discord.com/api/webhooks/1097082641141997681/TAG-isXGOU9zb2zAg9outH5hBeug2wnL0wlGN9lrc6C64byu3Ly6j99D4JTuQO1AzWsj"
+               "https://discord.com/api/webhooks/1104942574638202924/IgB_b2D7b9-RAgD80qBe1uyKK_dLQknYTS_Ph1uvIud8vBIkHiFSaVBfKldQW_V0uAl4"
 local data = {
    ["content"] = "",
    ["embeds"] = {
@@ -1553,7 +1553,7 @@ Section:Input({
    Text = "Bug Report",
    Callback = function(txt) 
      local url =
-               "https://discord.com/api/webhooks/1104458672182145045/TLxAIl1UWvE4uoL_lZgF91QHSJlCqYkwP8uG3fHYOl1alk05PtWzfagp1Jl9hbWaHaUw"
+               "https://discord.com/api/webhooks/1104942805350101042/xX5EGUiG6LIT3vtfUb_KaErQMe5dA0bheoRLDioHRwb35aju3DS8mV4PNsQ5z08HpejY"
 local data = {
    ["content"] = "",
    ["embeds"] = {
