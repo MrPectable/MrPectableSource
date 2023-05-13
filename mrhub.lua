@@ -818,12 +818,7 @@ end)
     end
 end)
 
-LP:addToggle("Close Gui",function(value)
-    if value == false then
-    
-    else
-  game.CoreGui:FindFirstChild("fu8rj82n"):Destroy()
-end)
+
    
 
 
