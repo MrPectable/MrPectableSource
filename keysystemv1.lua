@@ -39,7 +39,7 @@ end
 
 local Tab = Window:MakeTab({
 	Name = "Free Version",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://7733710700",
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
