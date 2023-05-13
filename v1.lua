@@ -407,6 +407,17 @@ Section2:Toggle({
      end 
      end
 })
+Section2:Toggle({
+   Text = "Domatic Hub",
+   Callback = function(bool)
+      if bool == true then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/f42c4ea862c98bb66aabb75c653552abddf968db/Doamadic%20Hub.lua"))()        
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 ---------Bloxburg Section-----------
 
 local Section2 = Tab2:Section({
@@ -916,7 +927,17 @@ Section2:Toggle({
      end 
      end
 })
-
+Section2:Toggle({
+   Text = "FTF Hub",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGet("https://pastebin.com/raw/XgA3wmpS"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 ---------Bed wars Section-----------
 local Section2 = Tab2:Section({
    Text = "Bedwars" ,
@@ -1023,6 +1044,17 @@ Section3:Toggle({
    Callback = function(bool)
       if bool == true then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/qwertyui-cool/uhh-yes/main/whopper.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section3:Toggle({
+   Text = "Script Master",
+   Callback = function(bool)
+      if bool == true then
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheScriptMaster1/ScriptMaster-Hub/main/scriptmasterhub.lua')))()
        warn(bool)
      else 
       
@@ -1176,10 +1208,28 @@ local Section3 = Tab3:Section({
     Side = "Left"
 })
 Section3:Toggle({
-   Text = "Soon",
+   Text = "Statue Hub",
    Callback = function(bool)
       if bool == true then
-     
+     -- [[ KEY IS grimcity ]] --
+
+request = http_request or request or HttpPost or syn.request
+
+local old
+
+old = hookfunction(request, newcclosure(function(req)
+    for _,v in pairs(req) do
+       print(_,v) 
+    end
+    if string.find(req.Url:lower(), "blacklisted") then
+       return {Body = "{}"}
+    elseif string.find(req.Url:lower(), "raw") then
+       return {Body = "grimcity"}
+    end
+    return old(req)
+end))
+
+loadstring(game:HttpGet("https://www.statuescripts.com/Script"))()
        warn(bool)
      else 
       
@@ -1191,10 +1241,11 @@ local Section3 = Tab3:Section({
     Side = "Left"
 })
 Section3:Toggle({
-   Text = "Soon",
+   Text = "Karma Panda",
    Callback = function(bool)
       if bool == true then
-     
+     --Karma Panda
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/main/astd-aio.lua'))()
        warn(bool)
      else 
       
@@ -1246,10 +1297,43 @@ Section3:Toggle({
      end 
      end
 })
------------Section-------------
+----------starving Artists-------------
 local Section3 = Tab3:Section({
-   Text = "Soon" ,
+   Text = "Starving Artists" ,
     Side = "Right"
+})
+Section3:Toggle({
+   Text = "Text Changer",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Jeux45/Starving-Artist-Text-Changer/main/Script.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section3:Toggle({
+   Text = "Image Copier",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section3:Toggle({
+   Text = "500+ Paintings",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperRegex/RobloxScripts/main/DrawingScript.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
 })
 Section3:Toggle({
    Text = "Soon",
@@ -1262,16 +1346,17 @@ Section3:Toggle({
      end 
      end
 })
------------Section-------------
+-----------The Mimic-------------
 local Section3 = Tab3:Section({
-   Text = "Soon" ,
+   Text = "The Mimic" ,
     Side = "Left"
 })
 Section3:Toggle({
-   Text = "Soon",
+   Text = "The Mimic",
    Callback = function(bool)
       if bool == true then
-     
+     _G.Key = "Table" --- dont remove this noob
+loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/TheMimic/main/README.md"))()
        warn(bool)
      else 
       
@@ -1485,6 +1570,39 @@ Section4:Toggle({
    Text = "Hoho",
    Callback = function(bool)
      loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+       warn(bool)
+   end
+})
+local Section4 = Tab4:Section({
+   Text = "Moon" ,
+    Side = "Right"
+})
+Section4:Toggle({
+   Text = "Moon UI V3",
+   Callback = function(bool)
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v13-102-SCRIPTS/main/MoonUI%20v13!"))()
+       warn(bool)
+   end
+})
+local Section4 = Tab4:Section({
+   Text = "Ez Hub" ,
+    Side = "Left"
+})
+Section4:Toggle({
+   Text = "Ez Hub",
+   Callback = function(bool)
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+       warn(bool)
+   end
+})
+local Section4 = Tab4:Section({
+   Text = "Catalyst Hub" ,
+    Side = "Left"
+})
+Section4:Toggle({
+   Text = "Catalyst Hub",
+   Callback = function(bool)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/itachi/main.lua'))()      
        warn(bool)
    end
 })
