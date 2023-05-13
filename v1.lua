@@ -1252,51 +1252,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/mai
      end 
      end
 })
-local Section3 = Tab3:Section({
-   Text = "Soon" ,
-    Side = "Right"
-})
-Section3:Toggle({
-   Text = "Soon",
-   Callback = function(bool)
-      if bool == true then
-     
-       warn(bool)
-     else 
-      
-     end 
-     end
-})
-local Section3 = Tab3:Section({
-   Text = "Soon" ,
-    Side = "Right"
-})
-Section3:Toggle({
-   Text = "Soon",
-   Callback = function(bool)
-      if bool == true then
-     
-       warn(bool)
-     else 
-      
-     end 
-     end
-})
-local Section3 = Tab3:Section({
-   Text = "Soon" ,
-    Side = "Right"
-})
-Section3:Toggle({
-   Text = "Soon",
-   Callback = function(bool)
-      if bool == true then
-     
-       warn(bool)
-     else 
-      
-     end 
-     end
-})
 ----------starving Artists-------------
 local Section3 = Tab3:Section({
    Text = "Starving Artists" ,
@@ -1443,38 +1398,7 @@ Section3:Toggle({
      end 
      end
 })
------------Section-------------
-local Section3 = Tab3:Section({
-   Text = "Soon" ,
-    Side = "Right"
-})
-Section3:Toggle({
-   Text = "Soon",
-   Callback = function(bool)
-      if bool == true then
-     
-       warn(bool)
-     else 
-      
-     end 
-     end
-})
------------Section-------------
-local Section3 = Tab3:Section({
-   Text = "Soon" ,
-    Side = "Right"
-})
-Section3:Toggle({
-   Text = "Soon",
-   Callback = function(bool)
-      if bool == true then
-     
-       warn(bool)
-     else 
-      
-     end 
-     end
-})
+
 ---------Section 10 Credits-----------
 local Section10 = Tab10:Section({
    Text = "BIG HELPERS" ,
