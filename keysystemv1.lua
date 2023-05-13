@@ -8,7 +8,7 @@ Content = "You Are Logged in As"..Player.Name..".",
 Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 Time = 5
 })
-_G.Key = "OMG12"
+_G.Key = "GOA"
 _G.Key2 = "Hydrogen"
 _G.KeyInput = "string"
 
