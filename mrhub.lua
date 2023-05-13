@@ -299,6 +299,8 @@ LP:addButton("Blaze X",
 end)
 
 LP:addLabel("Pet Simulator X","Section")
+LP:addLabel("Must Wait at Bank For 10 Sec")
+LP:addLabel("Select Pet You Want Duped Etc")
 
 LP:addToggle("Pet Dupe & Gems BETA",function(value)
     if value == false then
