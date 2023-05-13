@@ -1365,7 +1365,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/TheMimic/main/
 })
 -----------Section-------------
 local Section3 = Tab3:Section({
-   Text = "Soon" ,
+   Text = "Pls Donate" ,
     Side = "Left"
 })
 Section3:Toggle({
@@ -1381,7 +1381,7 @@ Section3:Toggle({
 })
 -----------Section-------------
 local Section3 = Tab3:Section({
-   Text = "Soon" ,
+   Text = "Zombie Attack" ,
     Side = "Left"
 })
 Section3:Toggle({
@@ -1397,7 +1397,7 @@ Section3:Toggle({
 })
 -----------Section-------------
 local Section3 = Tab3:Section({
-   Text = "Soon" ,
+   Text = "Mining Simulator 2" ,
     Side = "Right"
 })
 Section3:Toggle({
@@ -1413,7 +1413,7 @@ Section3:Toggle({
 })
 -----------Section-------------
 local Section3 = Tab3:Section({
-   Text = "Soon" ,
+   Text = "MadCity" ,
     Side = "Right"
 })
 Section3:Toggle({
@@ -1429,7 +1429,7 @@ Section3:Toggle({
 })
 -----------Section-------------
 local Section3 = Tab3:Section({
-   Text = "Soon" ,
+   Text = "LiveTopia" ,
     Side = "Right"
 })
 Section3:Toggle({
