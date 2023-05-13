@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/MrPectable/lib/main/source')))()
 local Player = game.Players.localPlayer
-local Window = OrionLib:MakeWindow({Name = "MrPectable Key System", HidePremium = false, SaveConfig = true,IntroText = ""})
+local Window = OrionLib:MakeWindow({Name = "MrPectable Hub #1", HidePremium = false, SaveConfig = true,IntroText = ""})
 
 OrionLib:MakeNotification({
 Name = "Logged in!",
@@ -47,16 +47,15 @@ local Section = Tab:AddSection({
 })
 
 Tab:AddButton({
-Name = "Launch Free Version",
-Callback = function()
-if _G.KeyInput == _G.Key then
-MakeScriptHub()
-CorrectKeyNotifaction()
-else
-IncorrectKeyNotifaction()
-end
-end
+	Name = "Launch Free Version",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/mrhub.lua"))()
+			print("Old Version Loaded")
+OrionLib:Destroy()
+  	end    
 })
+
+
 local Tab = Window:MakeTab({
 Name = "Key Version",
 Icon = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
