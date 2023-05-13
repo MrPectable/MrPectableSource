@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/MrPectable/lib/main/source')))()
 local Player = game.Players.localPlayer
 local Window = OrionLib:MakeWindow({Name = "MrPectable Key System", HidePremium = false, SaveConfig = true,IntroText = ""})
 
