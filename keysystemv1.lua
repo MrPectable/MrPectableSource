@@ -37,12 +37,33 @@ end
 
 
 
-
 local Tab = Window:MakeTab({
-Name = "Key",
+	Name = "Free Version",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Old Version"
+})
+
+Tab:AddButton({
+Name = "Launch Free Version",
+Callback = function()
+if _G.KeyInput == _G.Key then
+MakeScriptHub()
+CorrectKeyNotifaction()
+else
+IncorrectKeyNotifaction()
+end
+end
+})
+local Tab = Window:MakeTab({
+Name = "Key Version",
 Icon = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 PremiumOnly = false
 })
+
+
 
 Tab:AddTextbox({
 Name = "Enter Key",
