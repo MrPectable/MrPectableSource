@@ -10,6 +10,7 @@ Time = 5
 })
 _G.Key = "GOA"
 _G.Key2 = "Hydrogen"
+_G.Key3 = "EzHydro"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
@@ -34,7 +35,14 @@ Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100
 Time = 5
 })
 end
-
+function StaffKeyNotifaction()
+OrionLib:MakeNotification({
+Name = "Developing",
+Content = "Hub Is Still Being Developed!",
+Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
+Time = 5
+})
+end
 
 
 local Tab = Window:MakeTab({
@@ -103,4 +111,24 @@ local Tab = Window:MakeTab({
 })
 local Section = Tab:AddSection({
 	Name = "Hydrogen Staff Only"
+})
+Tab:AddTextbox({
+Name = "Enter Key",
+Default = "Staff",
+TextDisappear = false,
+Callback = function(Value)
+_G.KeyInput = Value
+
+end
+})
+Tab:AddButton({
+Name = "Staff Check Key!",
+Callback = function()
+if _G.KeyInput == _G.Key3 then
+StaffKeyNotifaction()
+CorrectKeyNotifaction()
+else
+IncorrectKeyNotifaction()
+end
+end
 })
