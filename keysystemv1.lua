@@ -114,7 +114,7 @@ local Section = Tab:AddSection({
 })
 Tab:AddTextbox({
 Name = "Enter Key",
-Default = "Staff",
+Default = "",
 TextDisappear = false,
 Callback = function(Value)
 _G.KeyInput = Value
