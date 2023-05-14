@@ -57,7 +57,7 @@ OrionLib:Destroy()
 
 
 local Tab = Window:MakeTab({
-Name = "Launch Key Version",
+Name = "Key Version",
 Icon = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 PremiumOnly = false
 })
