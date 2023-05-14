@@ -57,7 +57,7 @@ OrionLib:Destroy()
 
 
 local Tab = Window:MakeTab({
-Name = "Key Version",
+Name = "Launch Key Version",
 Icon = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 PremiumOnly = false
 })
@@ -95,4 +95,12 @@ else
 IncorrectKeyNotifaction()
 end
 end
+})
+local Tab = Window:MakeTab({
+	Name = "Staff Version",
+	Icon = "rbxassetid://7733770982",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Hydrogen Staff Only"
 })
