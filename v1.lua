@@ -1016,6 +1016,10 @@ local Section2 = Tab2:Section({
    Text = "More Soon..." ,
     Side = "Left"
 })
+local Section3 = Tab3:Section({
+   Text = "More Soon..." ,
+    Side = "Left"
+})
 
 
 
@@ -1068,11 +1072,11 @@ Section:Button({
    end
 })
 ----------Section 3 Games ------------
-local Section3 = Tab3:Section({
+local Section2 = Tab2:Section({
    Text = "Slap Battles" ,
     Side = "Left"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Slapper Hub",
    Callback = function(bool)
       if bool == true then
@@ -1083,7 +1087,7 @@ Section3:Toggle({
      end 
      end
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Whopper Hub",
    Callback = function(bool)
       if bool == true then
@@ -1094,7 +1098,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/qwertyui-cool/uhh-yes
      end 
      end
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Script Master",
    Callback = function(bool)
       if bool == true then
@@ -1106,11 +1110,11 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheScriptMaster1/Scr
      end
 })
 --------Combat Warriors-------
-local Section3 = Tab3:Section({
+local Section3 = Tab2:Section({
    Text = "Combat Warriors" ,
     Side = "Right"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Max Hub",
    Callback = function(bool)
       if bool == true then
@@ -1121,7 +1125,7 @@ Section3:Toggle({
      end 
      end
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Alpha",
    Callback = function(bool)
       if bool == true then
@@ -1132,7 +1136,7 @@ Section3:Toggle({
      end 
      end
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Tick Ware",
    Callback = function(bool)
       if bool == true then
@@ -1144,11 +1148,11 @@ Section3:Toggle({
      end
 })
 -------Lucky Blocks----------
-local Section3 = Tab3:Section({
+local Section2 = Tab2:Section({
    Text = "Lucky Blocks" ,
     Side = "Left"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Novice Hub",
    Callback = function(bool)
       if bool == true then
@@ -1182,11 +1186,11 @@ Section3:Toggle({
      end
 })
 ------King Legacy-------
-local Section3 = Tab3:Section({
+local Section2 = Tab2:Section({
    Text = "King Legacy" ,
     Side = "Left"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Black Trap",
    Callback = function(bool)
       if bool == true then
@@ -1198,11 +1202,11 @@ Section3:Toggle({
      end
 })
 ------- Shinobi Life 2------
-local Section3 = Tab3:Section({
+local Section2 = Tab2:Section({
    Text = "Shinobi Life 2" ,
     Side = "Left"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "VG",
    Callback = function(bool)
       if bool == true then
@@ -1213,7 +1217,7 @@ Section3:Toggle({
      end 
      end
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Premeir LITE",
    Callback = function(bool)
       if bool == true then
@@ -1224,7 +1228,7 @@ Section3:Toggle({
      end 
      end
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Speed Ahmad",
    Callback = function(bool)
       if bool == true then
@@ -1235,7 +1239,7 @@ Section3:Toggle({
      end 
      end
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "WD",
    Callback = function(bool)
       if bool == true then
@@ -1247,11 +1251,11 @@ Section3:Toggle({
      end
 })
 -------------------------------
-local Section3 = Tab3:Section({
+local Section2 = Tab2:Section({
    Text = "Rogue Demon" ,
     Side = "Left"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Statue Hub",
    Callback = function(bool)
       if bool == true then
@@ -1280,11 +1284,11 @@ loadstring(game:HttpGet("https://www.statuescripts.com/Script"))()
      end 
      end
 })
-local Section3 = Tab3:Section({
+local Section2 = Tab2:Section({
    Text = "All-Star-Tower-Defense!" ,
     Side = "Left"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Karma Panda",
    Callback = function(bool)
       if bool == true then
@@ -1297,11 +1301,11 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/mai
      end
 })
 ----------starving Artists-------------
-local Section3 = Tab3:Section({
+local Section2 = Tab2:Section({
    Text = "Starving Artists" ,
     Side = "Right"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Text Changer",
    Callback = function(bool)
       if bool == true then
@@ -1312,7 +1316,7 @@ Section3:Toggle({
      end 
      end
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Image Copier",
    Callback = function(bool)
       if bool == true then
@@ -1323,7 +1327,7 @@ Section3:Toggle({
      end 
      end
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "500+ Paintings",
    Callback = function(bool)
       if bool == true then
@@ -1334,7 +1338,7 @@ Section3:Toggle({
      end 
      end
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Soon",
    Callback = function(bool)
       if bool == true then
@@ -1346,11 +1350,11 @@ Section3:Toggle({
      end
 })
 -----------The Mimic-------------
-local Section3 = Tab3:Section({
+local Section2 = Tab2:Section({
    Text = "The Mimic" ,
     Side = "Left"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "The Mimic",
    Callback = function(bool)
       if bool == true then
@@ -1362,12 +1366,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/TheMimic/main/
      end 
      end
 })
------------Section-------------
-local Section3 = Tab3:Section({
+-----------Pls Donate-------------
+local Section2 = Tab2:Section({
    Text = "Pls Donate" ,
     Side = "Left"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Soon",
    Callback = function(bool)
       if bool == true then
@@ -1378,12 +1382,12 @@ Section3:Toggle({
      end 
      end
 })
------------Section-------------
-local Section3 = Tab3:Section({
+-----------Zombie Attack-------------
+local Section2 = Tab2:Section({
    Text = "Zombie Attack" ,
     Side = "Left"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Soon",
    Callback = function(bool)
       if bool == true then
@@ -1394,12 +1398,12 @@ Section3:Toggle({
      end 
      end
 })
------------Section-------------
-local Section3 = Tab3:Section({
+-----------MS2-------------
+local Section2 = Tab2:Section({
    Text = "Mining Simulator 2" ,
     Side = "Right"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Soon",
    Callback = function(bool)
       if bool == true then
@@ -1410,12 +1414,12 @@ Section3:Toggle({
      end 
      end
 })
------------Section-------------
-local Section3 = Tab3:Section({
+-----------MadCity-------------
+local Section2 = Tab2:Section({
    Text = "MadCity" ,
     Side = "Right"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Soon",
    Callback = function(bool)
       if bool == true then
@@ -1426,12 +1430,12 @@ Section3:Toggle({
      end 
      end
 })
------------Section-------------
-local Section3 = Tab3:Section({
+-----------LiveTopia-------------
+local Section2 = Tab2:Section({
    Text = "LiveTopia" ,
     Side = "Right"
 })
-Section3:Toggle({
+Section2:Toggle({
    Text = "Soon",
    Callback = function(bool)
       if bool == true then
