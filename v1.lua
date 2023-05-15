@@ -1421,6 +1421,22 @@ Section2:Toggle({
      end 
      end
 })
+-----------saitama battlegrounds-------------
+local Section2 = Tab2:Section({
+   Text = "The Strongest BattleGrounds" ,
+    Side = "Right"
+})
+Section2:Toggle({
+   Text = "Nicuse",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 -------------------------------------
 local Section2 = Tab2:Section({
    Text = "More Soon..." ,
