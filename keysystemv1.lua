@@ -70,7 +70,9 @@ Icon = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&
 PremiumOnly = false
 })
 
-
+local Section = Tab:AddSection({
+	Name = "Key = GOA "
+})
 
 Tab:AddTextbox({
 Name = "Enter Key",
