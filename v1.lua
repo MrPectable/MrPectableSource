@@ -1580,7 +1580,7 @@ local Section8 = Tab8:Section({
     Side = "Left"
 })
 Section8:Toggle({
-   Text = "10:53PM EST",
+   Text = "1:53PM EST",
    Callback = function(bool)
       if bool == true then
 
@@ -1591,7 +1591,7 @@ Section8:Toggle({
      end
 })
 Section8:Toggle({
-   Text = "Friday May 12th",
+   Text = "Monday May 15th",
    Callback = function(bool)
       if bool == true then
 
@@ -1602,7 +1602,7 @@ Section8:Toggle({
      end
 })
 Section8:Toggle({
-   Text = "Updating 100 Scripts!",
+   Text = "Updating Scripts!",
    Callback = function(bool)
       if bool == true then
 
@@ -1613,7 +1613,7 @@ Section8:Toggle({
      end
 })
 Section2:Button({
-   Text = "Last Update",
+   Text = "Latest Update",
    Callback = function()
     
    end
