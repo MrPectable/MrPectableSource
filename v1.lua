@@ -195,6 +195,16 @@ Section2:Button({
    end
 })
 Section2:Button({
+   Text = "Wait 30 seconds and Go to Bank/Mailbox Then Execute",
+   Callback = function()      
+   end
+})
+Section2:Button({
+   Text = "After it Loads Pick Your Pet To Be Duped!",
+   Callback = function()      
+   end
+})
+Section2:Button({
    Text = "Black Trap",
    Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/jmRUdL17"))()
