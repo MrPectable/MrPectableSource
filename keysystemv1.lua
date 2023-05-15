@@ -71,7 +71,7 @@ PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "Key = GOA "
+	Name = "Key For Check Key! = GOA "
 })
 
 Tab:AddTextbox({
