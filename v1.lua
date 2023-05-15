@@ -188,14 +188,20 @@ local Section2 = Tab2:Section({
    Text = "PSX" ,
     Side = "Left"
 })
-Section2:Button({
-   Text = "Pet Duper Beta ",
-   Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/dupe/main/dupe.lua"))()
-   end
+Section2:Toggle({
+   Text = "PSX Duper BETA",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/dupe/main/dupe.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
 })
+
 Section2:Button({
-   Text = "Wait 30s at Bank/Mailbox Then Execute",
+   Text = "Wait Bank/Mailbox Then Execute",
    Callback = function()      
    end
 })
