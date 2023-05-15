@@ -1012,10 +1012,7 @@ Section2:Toggle({
    end
 })
 ---------Section-----------
-local Section2 = Tab2:Section({
-   Text = "More Soon..." ,
-    Side = "Left"
-})
+
 local Section3 = Tab3:Section({
    Text = "More Soon..." ,
     Side = "Left"
@@ -1026,29 +1023,7 @@ local Section3 = Tab3:Section({
 
 
 ---------Dont Touch This-----------
-Section2:Button({
-   Text = "Im Coding rn :D",
-   Callback = function()
-       warn("MrPectable")
-   end
-})
 
-Section2:Keybind({
-   Text = "Press",
-   Default = Enum.KeyCode.Z,
-   Callback = function()
-       warn("Pressed.")
-   end
-})
-
-Section2:Input({
-   Text = "Update in 24H EST",
-   Callback = function(txt)
-    
-      
-       warn(txt)
-   end
-})
 local drop = Section:Dropdown({
    Text = "Choose",
    List = {"Beta", "Test"},
@@ -1446,7 +1421,34 @@ Section2:Toggle({
      end 
      end
 })
+-------------------------------------
+local Section2 = Tab2:Section({
+   Text = "More Soon..." ,
+    Side = "Left"
+})
+Section2:Button({
+   Text = "Im Coding rn :D",
+   Callback = function()
+       warn("MrPectable")
+   end
+})
 
+Section2:Keybind({
+   Text = "Press",
+   Default = Enum.KeyCode.Z,
+   Callback = function()
+       warn("Pressed.")
+   end
+})
+
+Section2:Input({
+   Text = "Update in 24H EST",
+   Callback = function(txt)
+    
+      
+       warn(txt)
+   end
+})
 ---------Section 10 Credits-----------
 local Section10 = Tab10:Section({
    Text = "BIG HELPERS" ,
