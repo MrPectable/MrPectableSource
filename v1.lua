@@ -230,10 +230,21 @@ Section2:Toggle({
      end
 })
 Section2:Toggle({
-   Text = "Fixing Saza",
+   Text = "Catalyst Hub",
    Callback = function(bool)
       if bool == true then
-    
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/itachi/main.lua'))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "ProJect x7",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/jebblox/scriptdatabase/main/scripts/projectx7.lua"))()        
        warn(bool)
      else 
       
@@ -293,6 +304,17 @@ end)
 local Section2 = Tab2:Section({
    Text = "Blox Fruits" ,
     Side = "Left"
+})
+Section2:Toggle({
+   Text = "Uranium HUB",
+   Callback = function(bool)
+      if bool == true then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()        
+       warn(bool)
+     else 
+      
+     end 
+     end
 })
 Section2:Toggle({
    Text = "Farinha HUB",
