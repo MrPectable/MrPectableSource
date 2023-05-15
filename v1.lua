@@ -51,7 +51,7 @@ local Tab4 = Window:Tab({
 })
 
 local Tab5 = Window:Tab({
-   Text = "Game Client"
+   Text = "Bug Reports!"
 })
 local Tab6 = Window:Tab({
    Text = "Game Local"
@@ -201,7 +201,7 @@ Section2:Toggle({
 })
 
 Section2:Button({
-   Text = "Wait Bank/Mailbox Then Execute",
+   Text = "Bank/Mailbox Then Execute",
    Callback = function()      
    end
 })
@@ -1635,7 +1635,11 @@ Section8:Toggle({
      end
 })
 -------------------------
-Section:Input({
+local Section5 = Tab5:Section({
+   Text = "Bug Report" ,
+    Side = "Right"
+})
+Section5:Input({
    Text = "Bug Report",
    Callback = function(txt) 
      local url =
@@ -1645,6 +1649,38 @@ local data = {
    ["embeds"] = {
        {
            ["title"] = "**Username: " .. game.Players.LocalPlayer.Name.." Bug Report MrPectable V1 In ".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .."!**",
+           ["description"] = txt,
+           ["type"] = "rich",
+           ["color"] = tonumber(0x7269da),
+           ["image"] = {
+               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+                   tostring(game:GetService("Players").LocalPlayer.Name)
+           }
+       }
+   }
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef) 
+      
+       warn(txt)
+   end
+})
+Section5:Input({
+   Text = "Script Ideas",
+   Callback = function(txt) 
+     local url =
+               "https://discord.com/api/webhooks/1104942805350101042/xX5EGUiG6LIT3vtfUb_KaErQMe5dA0bheoRLDioHRwb35aju3DS8mV4PNsQ5z08HpejY"
+local data = {
+   ["content"] = "",
+   ["embeds"] = {
+       {
+           ["title"] = "**Username: " .. game.Players.LocalPlayer.Name.." Script Idea MrPectable V1 In ".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .."!**",
            ["description"] = txt,
            ["type"] = "rich",
            ["color"] = tonumber(0x7269da),
