@@ -195,12 +195,12 @@ Section2:Button({
    end
 })
 Section2:Button({
-   Text = "Wait 30 seconds and Go to Bank/Mailbox Then Execute",
+   Text = "Wait 30s at Bank/Mailbox Then Execute",
    Callback = function()      
    end
 })
 Section2:Button({
-   Text = "After it Loads Pick Your Pet To Be Duped!",
+   Text = "Pick Your Pet To Be Duped!",
    Callback = function()      
    end
 })
