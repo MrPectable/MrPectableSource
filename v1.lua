@@ -189,7 +189,7 @@ local Section2 = Tab2:Section({
     Side = "Left"
 })
 Section2:Button({
-   Text = "Click to Dupe Gems!Beta",
+   Text = "Pet Duper Beta ",
    Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/dupe/main/dupe.lua"))()
    end
@@ -201,7 +201,7 @@ Section2:Button({
    end
 })
 Section2:Button({
-   Text = "Key = TEST_KEY",
+   Text = "Black Trap Key = TEST_KEY",
    Callback = function()      
    end
 })
