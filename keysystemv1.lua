@@ -51,7 +51,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "Old Version"
+	Name = "Beta Version"
 })
 
 Tab:AddButton({
@@ -65,7 +65,7 @@ OrionLib:Destroy()
 
 
 local Tab = Window:MakeTab({
-Name = "Key Version",
+Name = "New Version",
 Icon = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 PremiumOnly = false
 })
@@ -95,8 +95,19 @@ IncorrectKeyNotifaction()
 end
 end
 })
+
+Tab:AddTextbox({
+Name = "Enter Key",
+Default = "",
+TextDisappear = false,
+Callback = function(Value)
+_G.KeyInput = Value
+
+end
+})
+
 Tab:AddButton({
-Name = "VIP Check Key!",
+Name = "Premium Check Key!",
 Callback = function()
 if _G.KeyInput == _G.Key2 then
 MakeScriptHub()
