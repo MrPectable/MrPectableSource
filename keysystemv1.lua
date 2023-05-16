@@ -9,7 +9,7 @@ Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100
 Time = 5
 })
 _G.Key = "GOA"
-_G.Key2 = "Coems"
+_G.Key2 = loadstring(game:HttpGet("https://pastebin.com/raw/4jA9fRNd"))()
 _G.Key3 = "EzHydro"
 _G.KeyInput = "string"
 
