@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/MrPectable/lib/main/source')))()
 local Player = game.Players.localPlayer
-local Window = OrionLib:MakeWindow({Name = "MrPectable Hub #1", HidePremium = false, SaveConfig = true,IntroText = ""})
+local Window = OrionLib:MakeWindow({Name = "MrPectable Hub Launcher #1", HidePremium = false, SaveConfig = true,IntroText = ""})
 
 OrionLib:MakeNotification({
 Name = "Logged in!",
@@ -9,7 +9,7 @@ Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100
 Time = 5
 })
 _G.Key = "GOA"
-_G.Key2 = "Hydrogen"
+_G.Key2 = "Coems"
 _G.Key3 = "EzHydro"
 _G.KeyInput = "string"
 
