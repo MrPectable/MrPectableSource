@@ -51,7 +51,7 @@ local Tab4 = Window:Tab({
 })
 
 local Tab5 = Window:Tab({
-   Text = "Bug Reports!"
+   Text = "Game Reports!"
 })
 local Tab6 = Window:Tab({
    Text = "Game Local"
@@ -1743,7 +1743,7 @@ local Section8 = Tab8:Section({
     Side = "Left"
 })
 Section8:Toggle({
-   Text = "1:53PM EST",
+   Text = "10:31PM EST",
    Callback = function(bool)
       if bool == true then
 
@@ -1754,7 +1754,7 @@ Section8:Toggle({
      end
 })
 Section8:Toggle({
-   Text = "Monday May 15th",
+   Text = "Tuesday May 16th",
    Callback = function(bool)
       if bool == true then
 
@@ -1765,7 +1765,7 @@ Section8:Toggle({
      end
 })
 Section8:Toggle({
-   Text = "Updating Scripts!",
+   Text = "Next Update in 24H",
    Callback = function(bool)
       if bool == true then
 
@@ -1787,7 +1787,7 @@ local Section8 = Tab8:Section({
     Side = "Right"
 })
 Section8:Toggle({
-   Text = "Updating!",
+   Text = "Up-to-date!",
    Callback = function(bool)
       if bool == true then
 
