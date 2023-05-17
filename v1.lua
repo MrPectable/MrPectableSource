@@ -47,7 +47,7 @@ local Tab3 = Window:Tab({
 })
 
 local Tab4 = Window:Tab({
-   Text = "Player Hubs"
+   Text = "Player Hubs...!"
 })
 
 local Tab5 = Window:Tab({
