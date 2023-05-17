@@ -1492,6 +1492,80 @@ Section2:Toggle({
      end 
      end
 })
+-----------Race Clicker-------------
+local Section2 = Tab2:Section({
+   Text = "Race Clicker" ,
+    Side = "Right"
+})
+Section2:Toggle({
+   Text = "Inf Races Wins",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://pastebin.com/raw/AVtGb21M"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+-----------T-O-H-------------
+local Section2 = Tab2:Section({
+   Text = "Tower Of Hell" ,
+    Side = "Right"
+})
+Section2:Toggle({
+   Text = "Proxima-Hub",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+-----------Spider-------------
+local Section2 = Tab2:Section({
+   Text = "Spider" ,
+    Side = "Left"
+})
+Section2:Toggle({
+   Text = "Casper",
+   Callback = function(bool)
+      if bool == true then
+     _G.RedGUI = false
+_G.Theme = "Dark" -- Must disable or remove _G.RedGUI to use
+--Themes: Light, Dark, Mocha, Aqua and Jester
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/Spider.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+    
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Soon",
+   Callback = function(bool)
+      if bool == true then
+     
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 -------------------------------------
 local Section2 = Tab2:Section({
    Text = "More Soon..." ,
@@ -1522,7 +1596,7 @@ Section2:Input({
 })
 ---------Section 10 Credits-----------
 local Section10 = Tab10:Section({
-   Text = "BIG HELPERS" ,
+   Text = "Top Staff" ,
     Side = "Left"
 })
 Section10:Toggle({
@@ -1548,7 +1622,7 @@ Section10:Button({
    end
 })
 local Section10 = Tab10:Section({
-   Text = "Small HELPERS" ,
+   Text = "Other Providers" ,
     Side = "Right"
 })
 Section10:Toggle({
