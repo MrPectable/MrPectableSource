@@ -182,6 +182,18 @@ Section:Toggle({
      end 
      end
 })
+Section:Toggle({
+   Text = "RTX PSHADE",
+   Callback = function(bool)
+      if bool == true then
+     Shiftlock()
+    loadstring(game:HttpGet(('https://pastefy.ga/xXkUxA0P/raw'),true))()    
+     else 
+      
+     end 
+     end
+})
+
 
 ---------PSX Section-----------
 local Section2 = Tab2:Section({
