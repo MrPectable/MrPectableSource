@@ -51,10 +51,10 @@ local Tab4 = Window:Tab({
 })
 
 local Tab5 = Window:Tab({
-   Text = "Game Reports!"
+   Text = "Player Reports!"
 })
 local Tab6 = Window:Tab({
-   Text = "Game Local"
+   Text = "Game Local's"
 })
 local Tab7 = Window:Tab({
    Text = "Game Visuals"
@@ -225,14 +225,10 @@ Section2:Button({
 Section2:Button({
    Text = "Black Trap",
    Callback = function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/jmRUdL17"))()
+   loadstring(game:HttpGetAsync("https://blacktrap.org/blacktrap/users/checkpoint/Auth.txt"))()
    end
 })
-Section2:Button({
-   Text = "Black Trap Key = TEST_KEY",
-   Callback = function()      
-   end
-})
+
 Section2:Button({
    Text = "ExtremeHub",
    Callback = function() 
@@ -273,6 +269,29 @@ Section2:Toggle({
    Callback = function(bool)
       if bool == true then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jebblox/scriptdatabase/main/scripts/projectx7.lua"))()        
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Pasta",
+   Callback = function(bool)
+      if bool == true then
+ loadstring(game:HttpGet("https://rawscripts.net/raw/CATS-or-Pet-Simulator-X!-Pasta-v2-6841"))()        
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Project WD",
+   Callback = function(bool)
+      if bool == true then
+ getgenv().boothsnipe = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()        
        warn(bool)
      else 
       
