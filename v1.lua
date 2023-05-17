@@ -1347,10 +1347,54 @@ local Section2 = Tab2:Section({
     Side = "Left"
 })
 Section2:Toggle({
-   Text = "Soon",
+   Text = "Animoon",
    Callback = function(bool)
       if bool == true then
-     
+     loadstring(game:HttpGet(('https://pastebin.com/raw/f0a3yune')))() 
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Fake Donation",
+   Callback = function(bool)
+      if bool == true then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/StupidProAArsenal/main/main/caca%207441',true))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Auto Farm",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Emotes",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/UniversalDance-AnimGui.lua'))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Pretty-pls",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet("https://tubhub.cloud/scripts/prettyplease.lua"))()
        warn(bool)
      else 
       
@@ -1363,10 +1407,10 @@ local Section2 = Tab2:Section({
     Side = "Left"
 })
 Section2:Toggle({
-   Text = "Soon",
+   Text = "Auto-Farm",
    Callback = function(bool)
       if bool == true then
-     
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/zombie-attack/main/autofarm.lua"))()
        warn(bool)
      else 
       
@@ -1377,6 +1421,17 @@ Section2:Toggle({
 local Section2 = Tab2:Section({
    Text = "Mining Simulator 2" ,
     Side = "Right"
+})
+Section2:Toggle({
+   Text = "Saza",
+   Callback = function(bool)
+      if bool == true then
+     loadstring(game:HttpGet'https://raw.githubusercontent.com/VxidHub/misc/main/BruhBeardQuest.lua')()
+       warn(bool)
+     else 
+      
+     end 
+     end
 })
 Section2:Toggle({
    Text = "Soon",
@@ -1395,10 +1450,10 @@ local Section2 = Tab2:Section({
     Side = "Right"
 })
 Section2:Toggle({
-   Text = "Soon",
+   Text = "Drible Hub",
    Callback = function(bool)
       if bool == true then
-     
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/HoyoGey/DribleHub/main/Games/MadcityTpCrate.lua"))()
        warn(bool)
      else 
       
@@ -1411,10 +1466,10 @@ local Section2 = Tab2:Section({
     Side = "Right"
 })
 Section2:Toggle({
-   Text = "Soon",
+   Text = "UGC",
    Callback = function(bool)
       if bool == true then
-     
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0livetopia", true))()
        warn(bool)
      else 
       
