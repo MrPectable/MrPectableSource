@@ -200,28 +200,7 @@ local Section2 = Tab2:Section({
    Text = "PSX" ,
     Side = "Left"
 })
-Section2:Toggle({
-   Text = "PSX Duper BETA",
-   Callback = function(bool)
-      if bool == true then
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/dupe/main/dupe.lua"))()
-       warn(bool)
-     else 
-      
-     end 
-     end
-})
 
-Section2:Button({
-   Text = "Bank/Mailbox Then Execute",
-   Callback = function()      
-   end
-})
-Section2:Button({
-   Text = "Pick Your Pet To Be Duped!",
-   Callback = function()      
-   end
-})
 Section2:Button({
    Text = "Black Trap",
    Callback = function()
