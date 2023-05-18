@@ -8,7 +8,6 @@ Content = "You Are Logged in As.."..Player.Name..".",
 Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 Time = 5
 })
-_G.Key = "GOA"
 _G.Key2 = "Coems"
 _G.Key3 = "EzHydro"
 _G.KeyInput = "string"
@@ -71,30 +70,20 @@ PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "Key For Check Key! = GOA "
-})
-
-Tab:AddTextbox({
-Name = "Enter Key",
-Default = "",
-TextDisappear = false,
-Callback = function(Value)
-_G.KeyInput = Value
-
-end
+	Name = "New Version Is Now Keyless! "
 })
 
 Tab:AddButton({
-Name = "Check Key!",
-Callback = function()
-if _G.KeyInput == _G.Key then
-MakeScriptHub()
-CorrectKeyNotifaction()
-else
-IncorrectKeyNotifaction()
-end
-end
+	Name = "Launch New Version",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/v1.lua')))()
+			print("New Version Loaded")
+OrionLib:Destroy()
+  	end    
 })
+
+
+
 
 Tab:AddTextbox({
 Name = "Enter Key",
