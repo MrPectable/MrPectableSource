@@ -1819,7 +1819,7 @@ Section8:Toggle({
 -------------------------
 local Section5 = Tab5:Section({
    Text = "Bug Report" ,
-    Side = "Right"
+    Side = "Left"
 })
 Section5:Input({
    Text = "Bug Report",
