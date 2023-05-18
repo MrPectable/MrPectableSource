@@ -82,30 +82,13 @@ OrionLib:Destroy()
   	end    
 })
 
-
-
-
-Tab:AddTextbox({
-Name = "Enter Key",
-Default = "",
-TextDisappear = false,
-Callback = function(Value)
-_G.KeyInput = Value
-
-end
+local Section = Tab:AddSection({
+	Name = "Enjoy Your Scripts ! "
 })
 
-Tab:AddButton({
-Name = "Premium Check Key!",
-Callback = function()
-if _G.KeyInput == _G.Key2 then
-MakeScriptHub()
-CorrectKeyNotifaction()
-else
-IncorrectKeyNotifaction()
-end
-end
-})
+
+
+
 local Tab = Window:MakeTab({
 	Name = "Staff Version",
 	Icon = "rbxassetid://7733770982",
