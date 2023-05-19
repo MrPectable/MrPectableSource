@@ -200,7 +200,17 @@ local Section2 = Tab2:Section({
    Text = "PSX" ,
     Side = "Left"
 })
-
+Section2:Toggle({
+   Text = "PSX Pet Duper",
+   Callback = function(bool)
+      if bool == true then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/psxv/main/psxv.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 Section2:Button({
    Text = "Black Trap",
    Callback = function()
