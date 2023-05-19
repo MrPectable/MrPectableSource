@@ -307,7 +307,7 @@ LP:addToggle("Pet Dupe & Gems BETA",function(value)
     
 
     else
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/dupe/main/dupe.lua"))()                        
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/psxv/main/psxv.lua"))()                        
     end
 end)
 LP:addToggle("Fake Pet Visual  ",function(value)
