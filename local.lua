@@ -2,8 +2,7 @@
 if game.PlaceId==(6284583030) 
 
     then 
-
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/psx.lua"))() 
   else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/v1.lua"))() 
   end
