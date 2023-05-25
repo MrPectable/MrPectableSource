@@ -445,7 +445,7 @@ Section5:Button({
    end
 })
 
-local Section5 = Tab8:Section({
+local Section5 = Tab5:Section({
    Text = "Status" ,
     Side = "Right"
 })
@@ -461,11 +461,11 @@ Section5:Toggle({
      end
 })
 -------------------------
-local Section5 = Tab4:Section({
+local Section5 = Tab5:Section({
    Text = "Bug Report" ,
     Side = "Left"
 })
-Section4:Input({
+Section5:Input({
    Text = "Bug Report",
    Callback = function(txt) 
      local url =
@@ -497,7 +497,7 @@ request(abcdef)
        warn(txt)
    end
 })
-Section4:Input({
+Section5:Input({
    Text = "Script Ideas",
    Callback = function(txt) 
      local url =
