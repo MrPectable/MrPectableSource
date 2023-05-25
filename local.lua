@@ -8,7 +8,7 @@ if game.PlaceId==(6284583030)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/v1.lua"))() 
   end
 --------Blox Fruits----
-  if game.PlaceId==() 
+  if game.PlaceId==(2753915549) 
 
     then 
 
@@ -17,8 +17,8 @@ if game.PlaceId==(6284583030)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/v1.lua"))() 
   end
 
-----------------------
-  if game.PlaceId==() 
+----------Kat------------
+  if game.PlaceId==(621129760) 
 
     then 
 
@@ -26,8 +26,8 @@ if game.PlaceId==(6284583030)
   else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/v1.lua"))() 
   end
-----------------------
-  if game.PlaceId==() 
+----------Bloxburg------------
+  if game.PlaceId==(185655149) 
 
     then 
 
@@ -35,8 +35,8 @@ if game.PlaceId==(6284583030)
   else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/v1.lua"))() 
   end
-----------------------
-  if game.PlaceId==() 
+-----------bedwars-----------
+  if game.PlaceId==(6872265039) 
 
     then 
 
