@@ -1,5 +1,5 @@
-if game.PlaceId == 4581966615 then -- psx
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/Roblox-scripts-2.0/main/Games/Anomic/A2.lua", true))()
+if game.PlaceId == 6284583030 then -- psx
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/psx.lua", true))()
     else if game.PlaceId == 4738545896 then -- bloxfruits
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HELLLO1073/Roblox-scripts-2.0/main/Games/ShootOut/OS.lua", true))()
         else if game.PlaceId == 746820961 then -- bloxburg
