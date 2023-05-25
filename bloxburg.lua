@@ -31,25 +31,13 @@ Library.Theme = "Starry Night"
 local Flags = Library.Flags
 
 local Window = Library:Window({
-Text = "MrPectable HUB"
+Text = "MrPectable HUB |".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .."!"
 })
 ---------Windows Section-----------
 local Tab = Window:Tab({
-Text = "Local Player"
+Text = "Local Scripts"
 })
 
-local Tab2 = Window:Tab({
-Text = "Blox-burg"
-})
-local Tab5 = Window:Tab({
-Text = "Player Hubs"
-
-local Tab5 = Window:Tab({
-Text = "Player Reports!"
-
-local Tab10 = Window:Tab({
-Text = "Credits"
-})
 ---------Player Section-----------
 local Section = Tab:Section({
 Text = "Player" ,
@@ -179,143 +167,32 @@ end
 
 ---------Game Section-----------
 
----------Section 10 Credits-----------
-local Section10 = Tab10:Section({
-Text = "Top Staff" ,
-Side = "Left"
-})
-Section10:Toggle({
-Text = "Amack#0002",
-Callback = function(bool)
-warn(bool)
-end
-})
-Section10:Button({
-Text = "Script Organizer",
-Callback = function()
-end
-})
-Section10:Toggle({
-Text = "Gluhh#4570",
-Callback = function(bool)
-warn(bool)
-end
-})
-Section10:Button({
-Text = "Script Provider",
-Callback = function()
-end
-})
-local Section10 = Tab10:Section({
-Text = "Other Providers" ,
-Side = "Right"
-})
-Section10:Toggle({
-Text = "origami#0339",
-Callback = function(bool)
-warn(bool)
-end
-})
-Section10:Button({
-Text = "Script Provider",
-Callback = function()
 
+
+
+
+
+----------------------------
+Section:Toggle({
+Text = "Discord Invite Below",
+Callback = function(bool)
+warn(bool)
 end
 })
-local Section10 = Tab10:Section({
-Text = "Discord Invite" ,
-Side = "Right"
-})
-Section10:Toggle({
+Section:Toggle({
 Text = "f6QWTHeEkd",
 Callback = function(bool)
 warn(bool)
 end
 })
----------Section 4-----------
-local Section4 = Tab4:Section({
-Text = "ProjectEvo" ,
-Side = "Left"
-})
-Section4:Toggle({
-Text = "Evo4",
-Callback = function(bool)
-loadstring(game:HttpGet("https://projectevo.xyz/v4/script.lua", true))();
-warn(bool)
-end
-})
-local Section4 = Tab4:Section({
-Text = "NukeHub" ,
-Side = "Right"
-})
-Section4:Toggle({
-Text = "NukevsCity",
-Callback = function(bool)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
-warn(bool)
-end
-})
-local Section4 = Tab4:Section({
-Text = "Owl Hub" ,
-Side = "Left"
-})
-Section4:Toggle({
-Text = "Owl",
-Callback = function(bool)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
-warn(bool)
-end
-})
-local Section4 = Tab4:Section({
-Text = "Hoho Hub" ,
-Side = "Right"
-})
-Section4:Toggle({
-Text = "Hoho",
-Callback = function(bool)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
-warn(bool)
-end
-})
-local Section4 = Tab4:Section({
-Text = "Moon" ,
-Side = "Right"
-})
-Section4:Toggle({
-Text = "Moon UI V3",
-Callback = function(bool)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IlikeyocutgHAH/MoonUI-v13-102-SCRIPTS/main/MoonUI%20v13!"))()
-warn(bool)
-end
-})
-local Section4 = Tab4:Section({
-Text = "Ez Hub" ,
-Side = "Left"
-})
-Section4:Toggle({
-Text = "Ez Hub",
-Callback = function(bool)
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
-warn(bool)
-end
-})
-local Section4 = Tab4:Section({
-Text = "Catalyst Hub" ,
-Side = "Left"
-})
-Section4:Toggle({
-Text = "Catalyst Hub",
-Callback = function(bool)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/destylol/catalyst/itachi/main.lua'))()
-warn(bool)
-end
-})
+---------Section-----------
+
 -------Update Log-----
-local Section8 = Tab8:Section({
+local Section = Tab:Section({
 Text = "Update Log" ,
 Side = "Left"
 })
-Section8:Toggle({
+Section:Toggle({
 Text = "10:31PM EST",
 Callback = function(bool)
 if bool == true then
@@ -326,7 +203,7 @@ else
 end
 end
 })
-Section8:Toggle({
+Section:Toggle({
 Text = "Tuesday May 16th",
 Callback = function(bool)
 if bool == true then
@@ -337,7 +214,7 @@ else
 end
 end
 })
-Section8:Toggle({
+Section:Toggle({
 Text = "Next Update in 24H",
 Callback = function(bool)
 if bool == true then
@@ -348,18 +225,18 @@ else
 end
 end
 })
-Section2:Button({
+Section:Button({
 Text = "Latest Update",
 Callback = function()
 
 end
 })
 
-local Section8 = Tab8:Section({
+local Section = Tab:Section({
 Text = "Status" ,
 Side = "Right"
 })
-Section8:Toggle({
+Section5:Toggle({
 Text = "Up-to-date!",
 Callback = function(bool)
 if bool == true then
@@ -371,11 +248,11 @@ end
 end
 })
 -------------------------
-local Section5 = Tab5:Section({
+local Section = Tab:Section({
 Text = "Bug Report" ,
 Side = "Left"
 })
-Section5:Input({
+Section:Input({
 Text = "Bug Report",
 Callback = function(txt)
 local url =
@@ -407,7 +284,7 @@ request(abcdef)
 warn(txt)
 end
 })
-Section5:Input({
+Section:Input({
 Text = "Script Ideas",
 Callback = function(txt)
 local url =
