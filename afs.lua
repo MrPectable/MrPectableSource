@@ -39,7 +39,7 @@ Text = "Local Player"
 })
 
 local Tab2 = Window:Tab({
-Text = "Blox Fruits"
+Text = "AFS"
 })
 local Tab5 = Window:Tab({
 Text = "Player Hubs"
