@@ -1,5 +1,5 @@
 if game.PlaceId == 6284583030 then -- psx
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/v1.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/psx.lua", true))()
     else if game.PlaceId == 4738545896 then -- bloxfruits
     
         else if game.PlaceId == 746820961 then -- bloxburg
