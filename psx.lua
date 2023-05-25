@@ -31,7 +31,7 @@ Library.Theme = "Starry Night"
 local Flags = Library.Flags
 
 local Window = Library:Window({
-   Text = "MrPectable HUB | Pet Simulator X"
+   Text = "MrPectable HUB |".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .."!"
 })
 ---------Windows Section-----------
 local Tab = Window:Tab({
