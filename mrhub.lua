@@ -298,26 +298,7 @@ LP:addButton("Blaze X",
     })
 end)
 
-LP:addLabel("Pet Simulator X","Section")
-LP:addLabel("Must Wait at Bank For 10 Sec")
-LP:addLabel("Select Pet You Want Duped Etc")
-
-LP:addToggle("Pet Dupe & Gems BETA",function(value)
-    if value == false then
-    
-
-    else
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/psxv/main/psxv.lua"))()                        
-    end
-end)
-LP:addToggle("Fake Pet Visual  ",function(value)
-    if value == false then
-    
-
-    else
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/psxv/main/psxv.lua"))()                      
-    end
-end)
+LP:addLabel("Pet Simulator X","Section"
 
 LP:addToggle("Project WD",function(value)
     if value == false then
@@ -396,13 +377,6 @@ LP:addToggle("DHX GUI",function(value)
     end
 end)
 
-LP:addToggle("Trade Scam",function(value)
-    if value == false then
-    
-    else
-     
-    end
-end)
 
 
 
