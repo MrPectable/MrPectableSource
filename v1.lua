@@ -1496,6 +1496,34 @@ Section2:Toggle({
      end 
      end
 })
+---------Anime Tales Section-----------
+local Section2 = Tab2:Section({
+   Text = "Anime Tales" ,
+    Side = "Right"
+})
+Section2:Toggle({
+   Text = "BlackoutServices OP",
+   Callback = function(bool)
+      if bool == true then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Blackout4781/Roblox-Scripts/main/AnimeTales"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
+Section2:Toggle({
+   Text = "Muimi",
+   Callback = function(bool)
+      if bool == true then
+   _G.Key = "1f1vgx"
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/main.lua"))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 -----------saitama battlegrounds-------------
 local Section2 = Tab2:Section({
    Text = "The Strongest BattleGrounds" ,
