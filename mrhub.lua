@@ -45,7 +45,7 @@ Home:addButton("Infinite Yield",
     })
 end)
 
-Home:addLabel("Last Updated Today 1H ago EST| New Scripts Coming in 2h","Any Issues Contact MrPectable#2662 Discord")
+Home:addLabel("Last Updated May 27 2023 EST|","Any Issues Contact MrPectable#2662 Discord")
 
 
 
