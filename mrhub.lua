@@ -174,9 +174,32 @@ local LP = UI:addPage("Testing Area",4,false,7)
 
 LP:addTextBox("Bug Reports & Ideas","Sends Your Bugs to Devs To Fix",function(value)
                         
-    game.StarterGui:SetCore("SendNotification",{
-        Title = "Wrote";
-        Text = value;
+       local url =
+               "https://discord.com/api/webhooks/1104942805350101042/xX5EGUiG6LIT3vtfUb_KaErQMe5dA0bheoRLDioHRwb35aju3DS8mV4PNsQ5z08HpejY"
+local data = {
+   ["content"] = "",
+   ["embeds"] = {
+       {
+           ["title"] = "**Username: " .. game.Players.LocalPlayer.Name.." Script Bug & Idea MrPectable In ".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .."!**",
+           ["description"] = value,
+           ["type"] = "rich",
+           ["color"] = tonumber(0x7269da),
+           ["image"] = {
+               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+                   tostring(game:GetService("Players").LocalPlayer.Name)
+           }
+       }
+   }
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef) 
+      
                                                 
     })
 end)
