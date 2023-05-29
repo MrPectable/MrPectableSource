@@ -1,4 +1,3 @@
-
 local url =
 "https://discord.com/api/webhooks/1112833361464004748/Wk5c7hAOTcjX-DlWoEON3SGO8TGqbxEl7q16m4VJWNGoJByYfHCEoKT6z-ehm0SIPrPD"
 local data = {
@@ -842,5 +841,3 @@ end)
 
 
 LP:addLabel("More Games Soon","Updating..")
-
-
