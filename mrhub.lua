@@ -1,8 +1,3 @@
-if game.PlaceId == 6284583030 then 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/mrpsx.lua", true))()
-else if game.PlaceId == 2753915549 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/mrfruits.lua", true))()    
-else 
 local url =
 "https://discord.com/api/webhooks/1112833361464004748/Wk5c7hAOTcjX-DlWoEON3SGO8TGqbxEl7q16m4VJWNGoJByYfHCEoKT6z-ehm0SIPrPD"
 local data = {
@@ -846,9 +841,3 @@ end)
 
 
 LP:addLabel("More Games Soon","Updating..")
-
-end
-end
-end
-end   
-end
