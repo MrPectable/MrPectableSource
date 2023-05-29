@@ -172,10 +172,12 @@ end)
 
 local LP = UI:addPage("Testing Area",4,false,7)
 
-LP:addTextBox("This is a TextBox","Test",function(value)
+LP:addTextBox("Bug Reports & Ideas","Sends Your Bugs to Devs To Fix",function(value)
+                        
     game.StarterGui:SetCore("SendNotification",{
         Title = "Wrote";
         Text = value;
+                                                
     })
 end)
 LP:addLabel("Cloud","Execute This To Find Scripts For Your Game")
