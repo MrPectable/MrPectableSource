@@ -29,7 +29,7 @@ request(abcdef)
 
 local GUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/aaaa"))()
 
-local UI = GUI:CreateWindow("MrPectable","GOA")
+local UI = GUI:CreateWindow("MrPectable".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .."!","GOA")
 
 local Home = UI:addPage("Home",1,true,7)
 
@@ -96,7 +96,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[value]
 end)
 
 -- Games
-local LP = UI:addPage("(MrHub)".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .."!",3,false,7)
+local LP = UI:addPage("(MrHub)",3,false,7)
 LP:addLabel("Blox Fruits Section","")
 
 LP:addToggle("Atomic Hub",function(value)
