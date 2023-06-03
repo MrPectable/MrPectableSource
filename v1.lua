@@ -1524,25 +1524,6 @@ Section2:Toggle({
      end 
      end
 })
-Section2:Toggle({
-   Text = "Auto Train Weapon",
-   Callback = function(bool)
-      if bool == true then
-         getgenv().autoc = bool
-    spawn(function()
-        while autoc == true do
-            local Player = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.StatModuleClient)
-            Player.SendToServer("Weapon")
-            wait()
-        end
-       warn(bool)
-            end)
-        end)
-     else 
-      
-     end 
-     end
-})
 -----------saitama battlegrounds-------------
 local Section2 = Tab2:Section({
    Text = "The Strongest BattleGrounds" ,
