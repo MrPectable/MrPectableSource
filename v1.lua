@@ -54,7 +54,7 @@ local Tab5 = Window:Tab({
    Text = "Player Reports!"
 })
 local Tab6 = Window:Tab({
-   Text = "Game Local's"
+   Text = "Game Cloud's"
 })
 local Tab7 = Window:Tab({
    Text = "Game Visuals"
@@ -1902,7 +1902,22 @@ request(abcdef)
        warn(txt)
    end
 })
-
+-----------cloud-------------
+local Section6 = Tab6:Section({
+   Text = "Cloud" ,
+    Side = "Left"
+})
+Section6:Toggle({
+   Text = "Scripts For Your Game",
+   Callback = function(bool)
+      if bool == true then
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/laderite/scripts/main/Cloudscripts.lua'))()
+       warn(bool)
+     else 
+      
+     end 
+     end
+})
 
 
 Tab:Select()
