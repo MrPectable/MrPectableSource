@@ -149,7 +149,7 @@ game.ReplicatedStorage.RemoteEvent.OnClientEvent:Connect(function()
             Duration = 10
      ))
 end)
-print(asset.Name .. " :: " .. asset.Description " :: "..asset.Price " :: "..asset.IsForSale " :: "..asset.IsLimited " :: "..asset.Remaining)
+print(asset.Name .. " :: " .. asset.Description..asset.Price..asset.IsForSale..asset.IsLimited..asset.Remaining)
        warn(txt)
    end
 })
