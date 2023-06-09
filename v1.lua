@@ -139,17 +139,9 @@ Section:Input({
 local ASSET_ID = txt
 
 local asset = MarketplaceService:GetProductInfo(ASSET_ID)
-      local starterGui = game:GetService("StarterGui")
+      
 
-game.ReplicatedStorage.RemoteEvent.OnClientEvent:Connect(function()
-   starterGui:SetCore("SendNotifcation", (
-            Title = asset.name
-            Text = asset.Description
-            Icon = IconImageAssetId,
-            Duration = 10
-     ))
-end)
-print(asset.Name .. " :: " .. asset.Description..asset.Price..asset.IsForSale..asset.IsLimited..asset.Remaining)
+
        warn(txt)
    end
 })
