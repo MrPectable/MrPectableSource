@@ -140,7 +140,7 @@ local ASSET_ID = txt
 
 local asset = MarketplaceService:GetProductInfo(ASSET_ID)
       
-
+print(asset.Name .. " :: " .. asset.Description .. asset.IsLimited)
 
        warn(txt)
    end
