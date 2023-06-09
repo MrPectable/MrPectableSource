@@ -141,7 +141,7 @@ local ASSET_ID = txt
 local asset = MarketplaceService:GetProductInfo(ASSET_ID)
       
 print(asset.Name .. " :: " .. asset.Description)
-
+end
 })
 ---------Functions---------------
 function Shiftlock()
