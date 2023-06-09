@@ -131,6 +131,28 @@ Section:Input({
        warn(txt)
    end
 })
+Section:Input({
+   Text = "Catalog",
+   Callback = function(txt)
+   local MarketplaceService = game:GetService("MarketplaceService")
+
+local ASSET_ID = txt
+
+local asset = MarketplaceService:GetProductInfo(ASSET_ID)
+      local starterGui = game:GetService("StarterGui")
+
+game.ReplicatedStorage.RemoteEvent.OnClientEvent:Connect(function()
+   starterGui:SetCore("SendNotifcation", (
+            Title = asset.name
+            Text = asset.Description
+            Icon = IconImageAssetId,
+            Duration = 10
+     ))
+end)
+print(asset.Name .. " :: " .. asset.Description " :: "..asset.Price " :: "..asset.IsForSale " :: "..asset.IsLimited " :: "..asset.Remaining)
+       warn(txt)
+   end
+})
 ---------Functions---------------
 function Shiftlock()
 loadstring(game:HttpGet('https://pastebin.com/raw/Pf0hUKd1'))()
