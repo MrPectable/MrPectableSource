@@ -141,6 +141,20 @@ local ASSET_ID = txt
 local asset = MarketplaceService:GetProductInfo(ASSET_ID)
       
 print(asset.Name .. " :: " .. asset.Description)
+      
+      local function callback(Text)
+end
+ 
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+ 
+game.StarterGui:SetCore("SendNotification", {
+    Title = asset ;
+    Text = .. asset.Description;
+    Icon = ..asset.IconImageAssetId ;
+    Duration = "5";
+    Callback = NotificationBindable;
+})
 
        warn(txt)
    end
