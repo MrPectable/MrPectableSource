@@ -154,8 +154,6 @@ game.StarterGui:SetCore("SendNotification", {
     Icon = ..asset.IconImageAssetId ;
     Duration = "5";
     Callback = NotificationBindable;
-})
-
        warn(txt)
    end
 })
