@@ -14,7 +14,7 @@ _G.Key3 = "Hydro"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/local.lua')))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/v1.lua')))()
 print("Entered Correct Key")
 OrionLib:Destroy()
 end
@@ -57,7 +57,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
 	Name = "Launch Free Version",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/v1.lua"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/local.lua"))()
 			print("Old Version Loaded")
 OrionLib:Destroy()
   	end    
