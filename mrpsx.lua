@@ -96,7 +96,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[value]
 end)
 
 -- Games
-local LP = UI:addPage("(MrHub)",3,false,7)
+local LP = UI:addPage("Pet-Simulator-X",3,false,7)
 
 LP:addToggle("Project WD",function(value)
 if value == false then
