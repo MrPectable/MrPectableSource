@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/MrPectable/lib/main/source')))()
 local Player = game.Players.localPlayer
-local Window = OrionLib:MakeWindow({Name = "MrPectable Hub #1", HidePremium = false, SaveConfig = true,IntroText = ""})
+local Window = OrionLib:MakeWindow({Name = "MrPectable Hub Launcher #1", HidePremium = false, SaveConfig = true,IntroText = ""})
 
 OrionLib:MakeNotification({
 Name = "Logged in!",
@@ -8,9 +8,9 @@ Content = "You Are Logged in As.."..Player.Name..".",
 Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 Time = 5
 })
-_G.Key = "Coems"
-_G.Key2 = "trust"
-_G.Key3 = "lol123"
+_G.Key = "coems"
+_G.Key2 = "MrPectable"
+_G.Key3 = "Hydro"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
@@ -51,7 +51,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "Old Version"
+	Name = "Beta Version"
 })
 
 Tab:AddButton({
@@ -65,13 +65,13 @@ OrionLib:Destroy()
 
 
 local Tab = Window:MakeTab({
-Name = "Key Version",
+Name = "New Version",
 Icon = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-	Name = "Key Can Be Found In Discord"
+	Name = "Key For Check Key! Can Be Found In Discord "
 })
 
 Tab:AddTextbox({
@@ -95,8 +95,19 @@ IncorrectKeyNotifaction()
 end
 end
 })
+
+Tab:AddTextbox({
+Name = "Enter Key",
+Default = "",
+TextDisappear = false,
+Callback = function(Value)
+_G.KeyInput = Value
+
+end
+})
+
 Tab:AddButton({
-Name = "VIP Check Key!",
+Name = "Premium Check Key!",
 Callback = function()
 if _G.KeyInput == _G.Key2 then
 MakeScriptHub()
@@ -112,7 +123,7 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "MrHub Staff Only"
+	Name = "Hub Helpers Only"
 })
 Tab:AddTextbox({
 Name = "Enter Key",
