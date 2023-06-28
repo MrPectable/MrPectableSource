@@ -1,7 +1,7 @@
 if game.PlaceId == 6284583030 then -- psx
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/psx.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/mrpsx.lua", true))()
     else if game.PlaceId == 2753915549 then -- bloxfruits
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/bloxfruits.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/mrfruits.lua", true))()
         else if game.PlaceId == 185655149 then -- bloxburg
            loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/bloxburg.lua", true))()
             else if game.PlaceId == 4872321990 then -- islands
