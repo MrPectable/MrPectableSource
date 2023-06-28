@@ -34,6 +34,7 @@ local UI = GUI:CreateWindow("MrPectable".. game:GetService("MarketplaceService")
 local Home = UI:addPage("Home",1,true,7)
 
 Home:addLabel("Created By MrPectable","BETA")
+Home:addLabel("Discord","https://discord.gg/zuPeYVchv3")
 
 Home:addButton("Infinite Yield",
 function()
