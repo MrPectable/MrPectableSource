@@ -4,6 +4,6 @@ if (gameid == 6284583030) then
     else if (gameid == 2753915549) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/mrfruits.lua", true))()
                     else 
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/v1.lua"))()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/mrhub.lua"))()
     end
 end
