@@ -1813,7 +1813,7 @@ Section8:Toggle({
      end
 })
 Section8:Toggle({
-   Text = "Next Update in 3 Days",
+   Text = "Update Tmmrw 5PM EST",
    Callback = function(bool)
       if bool == true then
 
@@ -1824,7 +1824,7 @@ Section8:Toggle({
      end
 })
 Section2:Button({
-   Text = "Latest Update",
+   Text = "Latest Version",
    Callback = function()
     
    end
