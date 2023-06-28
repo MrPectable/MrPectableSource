@@ -1,5 +1,6 @@
-local url =
-               "https://discord.com/api/webhooks/1107824932538286101/F_dKjUoABU7pPMPa394w9a4au3H1UMK6lA5KY0Kq1eZKA6XEuB0QTeeaaMChjUELa4o9"
+
+            local url =
+               "https://discord.com/api/webhooks/1104315482510725222/UGDUtcvpMfb0EBwUCQHHYZ93ys-ntikB9PsSwi17cCtVrW5C8QxnNu7hxJweHDffuarp"
 local data = {
    ["content"] = "",
    ["embeds"] = {
@@ -44,7 +45,7 @@ Home:addButton("Infinite Yield",
     })
 end)
 
-Home:addLabel("Last Updated May 27 2023 EST|","Any Issues Contact MrPectable#2662 Discord")
+Home:addLabel("Last Updated Today 1H ago EST| New Scripts Coming in 2h","Any Issues Contact MrPectable#2662 Discord")
 
 
 
@@ -297,26 +298,7 @@ LP:addButton("Blaze X",
     })
 end)
 
-LP:addLabel("Pet Simulator X","Section"
-LP:addLabel("Still In Development")
-LP:addLabel("Select Pet You Want Duped!")
-
-LP:addToggle("Pet Dupe & Gems BETA",function(value)
-    if value == false then
-
-
-    else
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/psxv/main/psxv.lua"))()                        
-    end
-end)
-LP:addToggle("Fake Pet Visual  ",function(value)
-    if value == false then
-
-
-    else
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/psxv/main/psxv.lua"))()                      
-    end
-end)
+LP:addLabel("Pet Simulator X","Section")
 
 LP:addToggle("Project WD",function(value)
     if value == false then
@@ -395,6 +377,13 @@ LP:addToggle("DHX GUI",function(value)
     end
 end)
 
+LP:addToggle("Trade Scam",function(value)
+    if value == false then
+    
+    else
+     
+    end
+end)
 
 
 
@@ -828,10 +817,10 @@ end)
       loadstring(game:HttpGet("https://raw.githubusercontent.com/ccxmIcal/cracks/main/strikehub.lua"))()   
     end
 end)
-
-
    
 
 
 
 LP:addLabel("More Games Soon","Updating..")
+        
+   
