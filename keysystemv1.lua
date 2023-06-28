@@ -22,7 +22,7 @@ end
 function IncorrectKeyNotifaction()
 OrionLib:MakeNotification({
 Name = "Incorrect Key",
-Content = "Join The Discord - ybeRybYN89",
+Content = "Join The Discord - f6QWTHeEkd",
 Image = "http://www.roblox.com/thumbs/asset.ashx?assetid=13146328300&x=100&y=100&format=png",
 Time = 5
 })
