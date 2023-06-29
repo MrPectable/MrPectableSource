@@ -99,7 +99,7 @@ end)
 -- Games
 local LP = UI:addPage("Build-a-Boat-FT",3,false,7)
 
-LP:addLabel("Build a Boat FT","Section")
+LP:addLabel("Build-ABFT","Section")
 
 
 LP:addToggle("Xrollu",function(value)
