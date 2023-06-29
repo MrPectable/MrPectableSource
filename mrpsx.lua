@@ -97,7 +97,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[value]
 end)
 
 -- Games
-local LP = UI:addPage("Pet-Simulator-X",3,false,7)
+local LP = UI:addPage("".. game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name .."!",3,false,7)
 
 LP:addToggle("Pet-Duper Working!",function(value)
 if value == false then
