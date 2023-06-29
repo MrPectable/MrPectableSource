@@ -33,7 +33,8 @@ if (gameid == 6284583030) then
                                                                 loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/mrFTF.lua", true))()
                                                                 else if (gameid == 6872265039) then 
                                                                     loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/mrbedwars.lua", true))()
-                   
+                                                                        else if (gameid == 4042427666 )then  
+                                                                                 loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/mrafs.lua", true))()                   
                     else 
      loadstring(game:HttpGet("https://raw.githubusercontent.com/MrPectable/MrPectableSource/main/mrhub.lua"))()
     end
