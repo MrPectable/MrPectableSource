@@ -97,7 +97,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[value]
 end)
 
 -- Games
-local LP = UI:addPage("Flee-The-Facilitity",3,false,7)
+local LP = UI:addPage("FT-Facility ",3,false,7)
 LP:addLabel("Flee The Facility","Section")
 
 LP:addToggle("Artic HUB",function(value)
