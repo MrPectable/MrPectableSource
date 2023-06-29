@@ -97,7 +97,7 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[value]
 end)
 
 -- Games
-local LP = UI:addPage("ANIME FIGHTING SIMULATOR",3,false,7)
+local LP = UI:addPage("ANIME FIGHTING",3,false,7)
 LP:addTextBox("HitBox Expander","Number here",function(value)
 
    _G.HeadSize = value
