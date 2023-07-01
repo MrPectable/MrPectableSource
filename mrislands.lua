@@ -115,3 +115,11 @@ LP:addToggle("Lawl",function(value)
       loadstring(game:HttpGet('https://scripts.luawl.com/hosted/3255/12776/IslandsV2.lua'))()
     end
 end)
+
+LP:addToggle("Auto Farm",function(value)
+    if value == false then
+    
+        else
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAP1ayer/IslandsPlayerHub/main/IslandsV2MobFarmPreview.lua",true))()
+    end
+end)
