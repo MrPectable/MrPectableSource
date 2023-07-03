@@ -44,7 +44,7 @@ Text = "Loaded Successfully";
 })
 end)
 
-Home:addLabel("Last Updated June 28 2023 EST|","Any Issues Contact MrPectable#2662 Discord")
+Home:addLabel("Last Updated July 3rd 2023 EST|","Any Issues Contact MrPectable#2662 Discord")
 Home:addLabel("Discord","https://discord.gg/zuPeYVchv3")
 
 
