@@ -195,7 +195,7 @@ Section:Toggle({
      end
 })
 Section:Toggle({
-   Text = "RTX PSHADE",
+   Text = "Shift - Lock",
    Callback = function(bool)
       if bool == true then
      Shiftlock()
